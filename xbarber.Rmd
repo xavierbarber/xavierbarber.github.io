@@ -1,0 +1,29 @@
+---
+title: "Xavier Barber Professional website"
+image: "xavi_barber_foto_carnet.jpeg"
+links:
+  # - label: LinkedIn
+  #   url: "https://linkedin.com/"
+  - label: Twitter
+    url: "https://twitter.com/xavibarberumh"
+  - label: GitHub
+    url: "https://github.com/xavierbarber"
+  # - label: Email
+  #   url: "mailto:email@email.com"
+output:
+  postcards::jolla_blue
+---
+
+# About Me 
+ 
+## About Me
+
+I was born in Dénia (Spain) in 1972 and graduated in Statistics (2000). I got my PhD in Statistics in 2009 The thesis title was “Geostastistical models for bioclimatic indices” and my advisor were Javier MOrales and Antonio López-Quílez.
+
+I have been teaching and doing research in the Miguel Hernández University  since 2005 I became Associate Professor of Statistics and Operations Research in 2018.
+
+## Research groups to which I belong
+
+-  **Valencia Bayesian Research Group (VABAR)**. Based at the University of Valencia and heir of prominent Bayesians like Susie Bayarri and Juan Ferrándiz.
+
+ - **Statistical Modeling Ecology Group (SMEG)**. An inter-disciplinary research group, linking researchers from the Schools of Mathematics and Statistics, Biology and Ecology.
