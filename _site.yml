@@ -1,0 +1,16 @@
+name: "CV_website"
+title: "Xavi Barber's website"
+description: |
+  Xavi Barber's website
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    # - text: "About me"
+    #   href: about.html
+    - text: "More info"
+      href: xbarber.html
+    - text: "resume"
+      href: cva.html
+output: distill::distill_article

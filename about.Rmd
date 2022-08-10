@@ -1,0 +1,17 @@
+---
+title: "About this site"
+description: |
+  Mr. Wolf: The applied statistical problem solver 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+I was born in Dénia (Spain) in 1972 and graduated in Statistics (2000). I got my PhD in Statistics in 2009. The thesis title was "Geostastistical models for bioclimatic indices" and my advisors were Javier Morales(Miguel Hernandez University) and Antonio López-Quílez (Valencia University).
+
+I have been teaching and doing research in the Miguel Hernández University  since 2003 I became Associate Professor of Statistics and Operations Research in 2018.
+
+I like to enjoy riding my bike whenever I can, whether in the mountains or on the road... whatever it is, but always to the rhythm of  Motorhead-style R'n'R.

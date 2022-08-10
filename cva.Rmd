@@ -1,0 +1,119 @@
+---
+title: "Xavier Barber"
+image: "xavi_barber_foto_carnet.jpeg"
+links:
+  # - label: LinkedIn
+  #   url: "https://linkedin.com/"
+  - label: Twitter
+    url: "https://twitter.com/xavibarberumh"
+  - label: GitHub
+    url: "https://github.com/xavierbarber"
+  - label: Orcid
+    url: "https://orcid.org/0000-0003-3079-5855"
+  - label: "Scholar"
+    url: "https://scholar.google.es/citations?hl=es&user=KUzOpI4AAAAJ"
+  - label: "Pubblons"
+    url: "https://publons.com/wos-op/researcher/1425239/xavier-barber/"
+  - label: ResearchGate
+    url: "https://www.researchgate.net/profile/Xavier-Barber"
+output:
+  postcards::trestles
+---
+ 
+## Affiliation
+
+Associate Professor<br>
+Center of Operations Research (CIO)<br>
+Universidad Miguel Hernández de Elche<br>
+Avda. de la Universidad s/n<br>
+3202 Elche (Alicante)– Spain<br>
+Email: xbarber at umh point es<br>
+
+## CV Summary
+  
+  Dr. Xavier Barber (Dénia -Spain-, 1972). PhD in statistics (2009), and as a statistician, I enjoy applying statistics to the real world. I regularly use Bayesian statistics, and I try to apply the spatio-temporal hierarchical techniques to ecology, especially in the field of Species Distribution Modelling. Currently my main theoretical and applied interest is the uncertainty quantification in this research area. In addition, as a head of joint research unit UMH-FISABIO, I'm working in advanced statistical methods applied to health science.
+  
+I briefly outline the most outstanding results of my academic activity in recent years:
+
+- The publication of more than 100 papers (JCR journals, SCOPUS, dialnet, book chapters and proceedings), highlighting the development or participation in 49 articles in JCR journals. Initially linked to Public Health with a "Formación de Personal Investigador (FPI)" grant (1997-2005), with my first publications in journals such as BMC Cancer, Journal of Epidemiology and Community Health, European Journal of Epidemiology, etc. Later I started teaching at the Polytechnic School of Orihuela and my research was framed in Agronomy and Food Technology (lines that I am still active today) (Food Quality, Food Chemistry, Crops and Industrial Products, Soil Science and Plant Analysis, etc.). I have two CNEAI periods (2008-2013, 2014-2019) and one AVAP (2005-2010). I can't apply for periods before 2005 because I have been working in private companies and this is incompatible with such an application, although I have articles with a high number of citations published during the period 1997-2004.
+
+
+- I have belonged (2020-2022) to the "Valencia IA 4 Covid", a taskforce working group led by Dr. Nuria Oliver that advised the Regional Government using Artificial Intelligence against Covid-19. Winning group of the worldwide Xprize "Pandemic Response Challenge". I have published several articles on this topic.
+
+- Within the field of Bayesian Spatial Statistics I have published in journals as Mathematics, JABES, SORT or  GeoSpatial Health, more than 30 communications in conferences (over a total of 227), plus 8 invited talks.
+
+- Participation in more than 20 projects (consecutive funding since 2006 with MTM or GV) and research contracts (consultancy, in several of them as PI). I belong to the National Network BIOSTATNET, Valencia-VaBaR Node and the AIDS Research Network, CIBER-Infecciosas.
+
+- My transfer activity: I have participated in the constitution of the spin-off Compostingreen S.L. and the development of statistical software of undeniable importance, such as the one developed for Eurostat, used in the prediction of agricultural production in the EU, moreover the "eat:efficiency  analysis trees" R-package.
+
+- Best Poster Award at the International Workshop on Statistical Modelling 2010 (Poster on my Thesis: Geostatistical models for the study of bioclimatic indices) and 3 UMH awards for Research Production.
+
+- Teaching since 2004 both at undergraduate and postgraduate levels, since 2018 as Associste Professor. I have also been invited to teach more than 20 postgraduate courses/subjects and other teaching activities in various institutions. Teaching Talent Award 2016 and positive assessment in 2020, within the DOCENTIA program.
+
+- The direction of 67 Master Thesis (58  Master's Degree in Secondary Education and 9 research master's degree), 11 Final thesis, 1 Final thesis Erasmus+ and 5 Final degree project, as well as the internship tutoring more than 20 students.
+
+- The interest in constant improvement in teaching activity, as evidenced by the publication of 11 teaching papers, participation in 8 innovation projects (in 5 as principal investigator), the title of university expert in Technological Innovation in Education, as well as participation in more than 20 training courses and conferences. As a result, I have gone from being a trainer to being a trainer, giving training courses in the teaching innovation UMH-plan.
+
+- University Management: Deputy Vice Rector for Research (2011-2015, 2015-2019, 2019-), since 2015 as President of the Animal Welfare Body of the UMH. Secretary of the UMH Research Commission and Member of the Doctoral Commission.
+
+- Former Treasurer of the Spanish Society of Biostatistics (Spanish region of International Biometric Society) from 2014 to 2019.
+
+- Head of the research group  "Techniques and Applications in Biostatistics"  with positive evaluations within the EAITTDiC of the University according to the regulations approved by the Governing Council in March 2017. Member of the "Valencia Bayesian Research Group" and the "SEIO-Bayes group" since 2014 and head of the "Joint Research Unit  for statistical methods in health sciences UMH-FISABIO". 
+
+## Last publications
+
+- Gomis M.P., Pérez-Murcia M.D., **Barber X.**, Martínez-Sabater E., Moral R., Bustamante M.Á..Development and Validation of Alternative Palm-Derived Substrates for Seedling Production.Agronomy 2022 1210.3390/agronomy12061377
+
+
+- Pérez-Murcia M.D., Martínez-Sabater E., Domene M.A., González-Céspedes A., Bustamante M.A., Marhuenda-Egea F.C., **Barber X.**, López-Lluch D.B., Moral R..Role of proteins and soluble peptides as limiting components during the co-composting of agro-industrial wastes.Journal of Environmental Management 2021 30010.1016/j.jenvman.2021.113701
+
+- Martinez-Garcia M., Rabasa A., **Barber X.**, Polotskaya K., Roomp K., Oliver N..Key factors affecting people’s unwillingness to be confined during the COVID-19 pandemic in Spain: a large-scale population study.Scientific Reports 2021 1110.1038/s41598-021-97645-1
+
+- López-Rodríguez-Arias F., Sánchez-Guillén L., Aranaz-Ostáriz V., Triguero-Cánovas D., Lario-Pérez S., **Barber-Valles X.**, Lacueva F.J., Ramirez J.M., Arroyo A..Effect of home-based prehabilitation in an enhanced recovery after surgery program for patients undergoing colorectal cancer surgery during the COVID-19 pandemic.Supportive Care in Cancer 2021 2910.1007/s00520-021-06343-1
+
+- Herlin M., Sánchez-Pérez I., Esteban J., Korkalainen M., **Barber X.**, Finnilä M.A.J., Hamscher G., Joseph B., Viluksela M., Håkansson H..Bone toxicity induced by 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD) and the retinoid system: A causality analysis anchored in osteoblast gene expression and mouse data.Reproductive Toxicology 2021 10510.1016/j.reprotox.2021.07.013
+- Guilabert F.J., **Barber X.**, Pérez-Murcia M.D., Agulló E., Andreu-Rodríguez F.J., Moral R., Bustamante M.Á..Management of green waste streams from different origins: Assessment of different composting scenarios.Agronomy 2021 1110.3390/agronomy11091870
+
+- López-Rodríguez-arias F., Sánchez-Guillén L., Lillo-García C., Aranaz-Ostáriz V., Alcaide M.J., Soler-Silva Á., Soriano-Irigaray L., **Barber X.**, Arroyo A..Assessment of body composition as an indicator of early peripheral parenteral nutrition therapy in patients undergoing colorectal cancer surgery in an enhanced recovery program.Nutrients 2021 1310.3390/nu13093245
+
+- Sánchez-Guillén L., Soriano-Irigaray L., López-Rodríguez-arias F., **Barber X.**, Murcia A., Alcaide M.J., Aranaz-Ostáriz V., Soler-Silva Á., Navarro-Ruiz A., Arroyo A..Effect of early peripheral parenteral nutrition support in an enhanced recovery program for colorectal cancer surgery: A randomized open trial.Journal of Clinical Medicine 2021 1010.3390/jcm10163647
+
+- **Barber X.**, García-Gómez J.A., Martínez-Vidal M.P., Álvarez-Cienfuegos A..Reply letter: Benefits of the Bayes factor in rheumatology research [Carta de réplica: beneficios del factor Bayes en la investigación de reumatología].Revista Colombiana de Reumatologia 2021 2810.1016/j.rcreu.2021.04.004
+
+- **Barber X.**, Conesa D., López-Quílez A., Martínez-Minaya J., Paradinas I., Pennino M.G..Incorporating biotic information in species distribution models: A coregionalized approach.Mathematics 2021 910.3390/math9040417
+
+- Aguilar-Martinez M.D.M., Sanchez-Guillen L., **Barber-Valles X.**, Alcaide-Quiros M.J., Bosch-Ramirez M., Lopez-Delgado A., Tozer P., Arroyo A..Long-term Evaluation of Fistulotomy and Immediate Sphincteroplasty as a Treatment for Complex Anal Fistula.Diseases of the Colon and Rectum 2021 10.1097/DCR.0000000000001800
+
+- Oliver N., **Barber X.**, Roomp K., Roomp K..Assessing the impact of the COVID-19 pandemic in Spain: Large-scale, online, self-reported population survey.Journal of Medical Internet Research 2020 2210.2196/21319
+
+- Arroyo A., Sánchez-Guillén L., Parra P.A., García-Catalá L., Peña-Ros E., Ferrer-Márquez M., Nofuentes Riera C., **Barber-Valles X.**, Romero-Simó M..Photodynamic Therapy for the Treatment of Complex Anal Fistula.Lasers in Surgery and Medicine 2020 5210.1002/lsm.23162
+- **Barber X.**, Conesa D., López-Quílez A., Morales J..Multivariate Bioclimatic Indices Modelling: A Coregionalised Approach.Journal of Agricultural, Biological, and Environmental Statistics 2019 2410.1007/s13253-018-00345-z
+
+- Senabre Gallego J.M., Rosas J., Marco-Mingot M., García-Gómez J.A., Santos-Soler G., Salas-Heredia E., Pons-Bas A., Barber-Vallés X., Bernal-Vidal J.A., Cano-Pérez C., García-Carrasco M., Flores-Pardo E., AIRE-MB Group.Clinical relevance of monitoring serum adalimumab levels in axial spondyloarthritis.Rheumatology International 2019 10.1007/s00296-019-04288-7
+
+- Lantos P.M., Maradiaga-Panayotti G., **Barber X.**, Raynor E., Tucci D., Hoffman K., Permar S.R., Jackson P., Hughes B.L., Kind A., Swamy G.K..Geographic and Racial Disparities in Infant Hearing Loss.Otolaryngology - Head and Neck Surgery (United States) 2018 15910.1177/0194599818803305
+
+- Masiá M., Padilla S., Moreno S., **Barber X.**, Iribarren J.A., Del Romero J., Gómez-Sirvent J.L., Rivero M., Vidal F., Campins A.A., Gutiérrez F., Cohorte de la Red de Investigacion en Sida (CoRIS).Prediction of long-term outcomes of HIV-infected patients developing non-AIDS events using a multistate approach.PLoS ONE 2017 1210.1371/journal.pone.0184329
+
+- **Barber X.**, Conesa D., López-Quílez A., Mayoral A., Morales J., Barber A..Bayesian hierarchical models for analysing the spatial distribution of bioclimatic indices.SORT 2017 4110.2436/20.8080.02.60
+
+- Masiá M., Padilla S., Fernández M., **Barber X.**, Moreno S., Iribarren J.A., Portilla J., Peña A., Vidal F., Gutiérrez F..Contribution of Oxidative Stress to Non-AIDS Events in HIV-Infected Patients.Journal of Acquired Immune Deficiency Syndromes 2017 7510.1097/QAI.0000000000001287
+
+- Rosas J., Llinares-Tello F., Senabre-Gallego J.M., Barber-Vallés X., Santos-Soler G., Salas-Heredia E., Bas A.P., Pérez C.C., Carrasco M.G., Betoret M.L., Mingot M.M., García J.M., Ramírez C.S., Selfa M.S..Obesity decreases clinical efficacy and levels of adalimumab in patients with ankylosing spondylitis.Clinical and Experimental Rheumatology 2017 35
+
+- Noguera-Artiaga L., Lipan L., Vázquez-Araújo L., **Barber X.**, Pérez-López D., Carbonell-Barrachina ÁA..Opinion of Spanish Consumers on Hydrosustainable Pistachios.Journal of food science 2016 8110.1111/1750-3841.13501
+
+- Marín-Martínez R., **Barber X.**, Cabrera-Vique C., Carbonell-Barrachina Á.A., Vilanova E., García-Hernández V.M., Roche E., Garcia-Garcia E..Aluminium, nickel, cadmium and lead in candy products and assessment of daily intake by children in Spain.Food Additives and Contaminants: Part B Surveillance 2016 910.1080/19393210.2015.1131753
+- **Barber X.**, Conesa D., Lladosa S., López-Quílez A..Modelling the presence of disease under spatial misalignment using Bayesian latent Gaussian models.Geospatial Health 2016 1110.4081/gh.2016.415
+
+- Masiá M., Padilla S., **Barber X.**, Sanchis M., Terol G., Lidón F., Gutiérrez F..Comparative impact of suppressive antiretroviral regimens on the CD4/CD8 T-cell ratio: A cohort study.Medicine (United States) 2016 9510.1097/MD.0000000000003108
+Gullon B., Pintado M.E., **Barber X.**, Fernández-López J., Pérez-Álvarez J.A., Viuda-Martos M..Bioaccessibility, changes in the antioxidant potential and colonic fermentation of date pits and apple bagasse flours obtained from co-products during simulated in vitro gastrointestinal digestion.Food Research International 2015 7810.1016/j.foodres.2015.10.021
+
+- Ruiz-Navajas Y., Viuda-Martos M., **Barber X.**, Sendra E., Perez-Alvarez J.A., Fernández-López J..Effect of chitosan edible films added with Thymus moroderi and Thymus piperella essential oil on shelf-life of cooked cured ham.Journal of Food Science and Technology 2015 5210.1007/s13197-015-1733-3
+- Viuda-Martos M., **Barber X.**, Pérez-Álvarez J.A., Fernández-López J..Assessment of chemical, physico-chemical, techno-functional and antioxidant properties of fig (Ficus carica L.) powder co-products.Industrial Crops and Products 2015 6910.1016/j.indcrop.2015.03.005
+
+- Trigueros L., **Barber X.**, Sendra E..Conjugated linoleic acid content in fermented goat milk as affected by the starter culture and the presence of free linoleic acid.International Journal of Dairy Technology 2015 6810.1111/1471-0307.12177
+
+- Martin-Mata J., Marhuenda-Egea F.C., Moral R., Torres-Climent A., Martínez-Sabater E., Paredes C., **Barber X.**, Morales J..Characterization of Dissolved Organic Matter from Sewage Sludge using 3D-Fluorescence Spectroscopy and Chemometric Tools.Communications in Soil Science and Plant Analysis 2015 4610.1080/00103624.2014.988590
+
+- Torres-Climent A., Martin-Mata J., Marhuenda-Egea F., Moral R., **Barber X.**, Perez-Murcia M.D., Paredes C..Composting of the Solid Phase of Digestate from Biogas Production: Optimization of the Moisture, C/N Ratio, and pH Conditions.Communications in Soil Science and Plant Analysis 2015 4610.1080/00103624.2014.988591
