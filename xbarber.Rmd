@@ -1,0 +1,43 @@
+---
+title: "Xavier Barber"
+image: "xavi_barber_foto_carnet.jpeg"
+links:
+  # - label: LinkedIn
+  #   url: "https://linkedin.com/"
+  - label: Twitter
+    url: "https://twitter.com/xavibarberumh"
+  - label: GitHub
+    url: "https://github.com/xavierbarber"
+  - label: Orcid
+    url: "https://orcid.org/0000-0003-3079-5855"
+  - label: "Scholar"
+    url: "https://scholar.google.es/citations?hl=es&user=KUzOpI4AAAAJ"
+  - label: "Pubblons"
+    url: "https://publons.com/wos-op/researcher/1425239/xavier-barber/"
+  - label: ResearchGate
+    url: "https://www.researchgate.net/profile/Xavier-Barber"
+  - label: email "xbarber at umh point es"
+    url: " "
+output:
+  postcards::trestles
+---
+
+## Research Groups I'm Affiliated With
+
+- **Statistical Methods Applied in Agriculture, Life Sciences, and Education** (Principal Investigator)
+
+- **Valencia Bayesian Research Group (VABAR)**, based at the University of Valencia.
+
+- **Statistical Modeling Ecology Group (SMEG)**, an interdisciplinary research group that brings together researchers from the Schools of Mathematics and Statistics, Biology, and Ecology.
+
+## Current Roles
+
+- Head of the Joint Research Unit on Statistical Methods in Health Sciences (UMI MECIS UMH-FISABIO).
+
+- Statistical Editor at *Public Health Nutrition*.
+
+## Professional Associations
+
+- Former Treasurer of the Spanish Region of the International Biometric Society (2014-2019).
+
+- Member of the Representative Council of the International Biometric Society (2021-2025).

@@ -61,10 +61,17 @@ Allow me to briefly outline the most noteworthy accomplishments from my recent a
 
 ## Last publications
 
+- España, V. J., Aparicio, J., Barber, X., & Esteve, M.. Estimating production functions through additive models based on regression splines. European Journal of Operational Research 2023; 312(2); 648-699.
+
+- Rocha, D. R., Barber, X., Jordán-Vidal, M. M., Urbano, A., Melquiades, F. L., Thomaz, E. L., & Mataix-Solera, J. (2022). Multivariate Analysis with XRD Data as a Fingerprinting Technique to Study Burned Soils. Minerals, 12(11), 1402.
+
 - Gomis M.P., Pérez-Murcia M.D., **Barber X.**, Martínez-Sabater E., Moral R., Bustamante M.Á..Development and Validation of Alternative Palm-Derived Substrates for Seedling Production.Agronomy 2022 1210.3390/agronomy12061377
 
+- Esteve, M., España, V., Aparicio, J., & Barber, X. (2022). eat: An R Package for fitting Efficiency Analysis Trees. R JOURNAL, 14(3), 249-281.
 
 - Pérez-Murcia M.D., Martínez-Sabater E., Domene M.A., González-Céspedes A., Bustamante M.A., Marhuenda-Egea F.C., **Barber X.**, López-Lluch D.B., Moral R..Role of proteins and soluble peptides as limiting components during the co-composting of agro-industrial wastes.Journal of Environmental Management 2021 30010.1016/j.jenvman.2021.113701
+
+- Barber, X., Falcó, A., & Martinez-Garcia, M. (2022). On the Probabilistic Extension of the Classical Epidemiological Compartmental Model. In Nonlinear Dynamics and Complexity: Mathematical Modelling of Real-World Problems (pp. 175-200). Cham: Springer International Publishing.
 
 - Martinez-Garcia M., Rabasa A., **Barber X.**, Polotskaya K., Roomp K., Oliver N..Key factors affecting people’s unwillingness to be confined during the COVID-19 pandemic in Spain: a large-scale population study.Scientific Reports 2021 1110.1038/s41598-021-97645-1
 
