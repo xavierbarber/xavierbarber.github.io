@@ -22,22 +22,31 @@ output:
   postcards::trestles
 ---
 
-## Research Groups I'm Affiliated With
+## Research Groups 
 
-- **Statistical Methods Applied in Agriculture, Life Sciences, and Education** (Principal Investigator)
+- Joint Research Unit STATSALUT: Advanced Statistical Methods  in Health Sciences UMH-FISABIO  (Principal Investigator)
 
-- **Valencia Bayesian Research Group (VABAR)**, based at the University of Valencia.
+- Valencia Bayesian Research Group (VABAR), based at the University of Valencia.
 
-- **Statistical Modeling Ecology Group (SMEG)**, an interdisciplinary research group that brings together researchers from the Schools of Mathematics and Statistics, Biology, and Ecology.
+- Statistical Modeling Ecology Group (SMEG): An interdisciplinary research group that brings together researchers from the Schools of Mathematics and Statistics, Biology, and Ecology.
 
 ## Current Roles
 
 - Head of the Joint Research Unit on Statistical Methods in Health Sciences (UMI MECIS UMH-FISABIO).
 
-- Statistical Editor at *Public Health Nutrition*.
+- Statistical Editor at Public Health Nutrition.
 
-## Professional Associations
+## Scientific Associations
 
 - Former Treasurer of the Spanish Region of the International Biometric Society (2014-2019).
 
+- Meber of the Executive Board of the Spanish Region of the International Biometric Society (2014-2019, 2021-)
+
 - Member of the Representative Council of the International Biometric Society (2021-2025).
+
+## University Management 
+
+- Deputy Vice-Rector for Research at Universidad Miguel Hernández, Spain (2011-2015, 2015-2019, 2019-2023).
+
+- Deputy Director of the Institute of Mathematics, Data Science, and Artificial Intelligence at Universidad Miguel Hernández, Spain (2023-).
+
