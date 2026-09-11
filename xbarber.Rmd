@@ -1,52 +1,51 @@
 ---
-title: "Xavier Barber"
-image: "xavi_barber_foto_carnet.jpeg"
-links:
-  # - label: LinkedIn
-  #   url: "https://linkedin.com/"
-  - label: Twitter
-    url: "https://twitter.com/xavibarberumh"
-  - label: GitHub
-    url: "https://github.com/xavierbarber"
-  - label: Orcid
-    url: "https://orcid.org/0000-0003-3079-5855"
-  - label: "Scholar"
-    url: "https://scholar.google.es/citations?hl=es&user=KUzOpI4AAAAJ"
-  - label: "Pubblons"
-    url: "https://publons.com/wos-op/researcher/1425239/xavier-barber/"
-  - label: ResearchGate
-    url: "https://www.researchgate.net/profile/Xavier-Barber"
-  - label: email "xbarber at umh point es"
-    url: " "
-output:
-  postcards::trestles
+title: "Research and knowledge transfer"
+description: "Xavier Barber’s research in Artificial Intelligence, Bayesian spatial statistics, efficiency and productivity, and knowledge transfer."
 ---
 
-## Research Groups 
+<p class="lead">Artificial Intelligence methods grounded in statistics and connected to real problems.</p>
 
-- Joint Research Unit STATSALUT: Advanced Statistical Methods  in Health Sciences UMH-FISABIO  (Principal Investigator)
+I am a Full Professor of Statistics and Operations Research at Universidad Miguel Hernández de Elche and a researcher at **i-MInD — Instituto en Matemáticas, Inteligencia Artificial y Ciencia de Datos**.
 
-- Valencia Bayesian Research Group (VABAR), based at the University of Valencia.
+## Artificial Intelligence: research and knowledge transfer
 
-- Statistical Modeling Ecology Group (SMEG): An interdisciplinary research group that brings together researchers from the Schools of Mathematics and Statistics, Biology, and Ecology.
+### Research
 
-## Current Roles
+I work on machine learning, Bayesian networks and interpretable models for prediction and decision support. Applications include species distribution, clinical research, and the estimation of production frontiers. Recent work also examines generative AI in clinical guideline interpretation.
 
-- Head of the Joint Research Unit on Statistical Methods in Health Sciences (UMI MECIS UMH-FISABIO).
+[Explore Artificial Intelligence and decision-making publications](cva.html#artificial-intelligence).
 
-- Statistical Editor at Public Health Nutrition.
+### Knowledge transfer
 
-## Scientific Associations
+- **Applied modelling and consulting:** statistical and machine-learning support for clinical studies, environmental analysis, industry and public institutions.
+- **Open-source software:** co-development of the [`eat` R package](https://doi.org/10.32614/RJ-2022-054) for efficiency analysis using tree-based methods.
+- **Public-sector training:** specialised courses in generative AI, prompt engineering, document analysis with large language models, and responsible use of AI in administrative workflows.
+- **Health collaboration:** leadership of the UMH–FISABIO Joint Research Unit on Statistical Methods in Health Sciences (STATSALUT).
 
-- Former Treasurer of the Spanish Region of the International Biometric Society (2014-2019).
+## Bayesian and spatio-temporal statistics
 
-- Meber of the Executive Board of the Spanish Region of the International Biometric Society (2014-2019, 2021-)
+My interests include hierarchical spatial models, spatial misalignment, multivariate geostatistics and coregionalisation, species distribution modelling, and environmental forecasting. A central question is how to account for uncertainty when combining observations collected at different spatial and temporal scales.
 
-- Member of the Representative Council of the International Biometric Society (2021-2025).
+[Selected spatial and spatio-temporal papers](cva.html#spatial-statistics).
 
-## University Management 
+## Efficiency and productivity
 
-- Deputy Vice-Rector for Research at Universidad Miguel Hernández, Spain (2011-2015, 2015-2019, 2019-2023).
+With **Juan Aparicio** and colleagues, I combine production-frontier and Data Envelopment Analysis methods with machine learning. Our work includes efficiency analysis trees, regression splines, Random Forest and models with multiple outputs, alongside implementation in R.
 
-- Deputy Director of the Institute of Mathematics, Data Science, and Artificial Intelligence at Universidad Miguel Hernández, Spain (2023-).
+[Selected efficiency and productivity papers](cva.html#efficiency-productivity).
 
+## Scientific leadership and service
+
+- Deputy Director of i-MInD, Universidad Miguel Hernández de Elche.
+- Chair of the Representative Council of the International Biometric Society, **2026–2027**.
+- Head of the UMH–FISABIO Joint Research Unit on Statistical Methods in Health Sciences.
+- Deputy Vice-Rector for Research at UMH, **2011–2023**.
+- Treasurer of the Spanish Region of the International Biometric Society, **2014–2019**.
+- Representative Council member of the International Biometric Society, **2021–2025**.
+- Editorial and peer-review activity, including statistical editing for *Public Health Nutrition*.
+
+## Research networks and collaborations
+
+My collaborations include the Valencia Bayesian Research Group (VaBaR), UMH–FISABIO STATSALUT, researchers in ecology and environmental science, hospitals, and industrial partners.
+
+For the full research record, see [ORCID](https://orcid.org/0000-0003-3079-5855) and [Google Scholar](https://scholar.google.com/citations?user=KUzOpI4AAAAJ&hl=en).
