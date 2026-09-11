@@ -1,41 +1,34 @@
 ---
-title: "Xavi Barber's website"
-description: |
-  This is my professional website
-site: distill::distill_website
+title: "Xavier Barber"
+description: "Artificial Intelligence research and knowledge transfer, Bayesian spatial statistics, and efficiency and productivity analysis at i-MInD, UMH."
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+<img class="portrait" src="xavi_barber_foto_carnet.jpeg" alt="Portrait of Xavier Barber" width="170" height="204">
 
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
+**Full Professor of Statistics and Operations Research**
 
-# Learn more about publishing to GitHub Pages at:
-# https://rstudio.github.io/distill/publish_website.html#github-pages
+<p class="lead">Artificial Intelligence · Bayesian and spatio-temporal statistics · Efficiency and productivity</p>
 
-```
+<p class="affiliation"><strong>i-MInD</strong> — <span lang="es">Instituto en Matemáticas, Inteligencia Artificial y Ciencia de Datos</span><br>Universidad Miguel Hernández de Elche, Spain</p>
 
-<center>
+I research statistical and Artificial Intelligence methods and transfer them into practical applications. My work combines Bayesian modelling, spatial and spatio-temporal statistics, and machine learning to quantify uncertainty and support decision making.
 
-![](xavi_barber_foto_carnet.jpeg){ width=20%}
+I collaborate with researchers, companies and public institutions in health, ecology, environmental science and economics. With Juan Aparicio and colleagues, I develop methods and software for efficiency and productivity analysis.
 
+<div class="topics"><a href="cva.html#artificial-intelligence">Artificial Intelligence papers</a><a href="cva.html#spatial-statistics">Spatial statistics</a><a href="cva.html#efficiency-productivity">Efficiency &amp; productivity</a></div>
 
-</center>
+## Artificial Intelligence in research and knowledge transfer
 
+My research includes machine learning for species distribution and clinical prediction, Bayesian networks, and learning methods for production frontiers. My knowledge-transfer activity includes applied statistical and AI consulting, open-source software, and training in generative AI for public administrations.
 
+[Explore research and knowledge transfer](xbarber.html) · [Read my CV and selected publications](cva.html)
 
-- I was born in Dénia (Spain) in 1972 and graduated in Statistics (2000). I got my PhD in Statistics in 2009. The thesis title was "Geostastistical models for bioclimatic indices" and my advisors were Javier Morales(Miguel Hernandez University) and Antonio López-Quílez (Valencia University).
+## Selected research highlights
 
-- I have been teaching and doing research at Miguel Hernández University since 2003. I became Associate Professor of Statistics and Operations Research in 2018.
+- **Spatial modelling:** [disease modelling under spatial misalignment](https://doi.org/10.4081/gh.2016.415) and [multivariate bioclimatic models](https://doi.org/10.1007/s13253-018-00345-z).
+- **Efficiency and productivity:** [production functions based on regression splines](https://doi.org/10.1016/j.ejor.2023.06.035) and the [`eat` R package](https://doi.org/10.32614/RJ-2022-054), with Juan Aparicio and colleagues.
+- **Interdisciplinary impact:** [BIMCV COVID-19+](https://arxiv.org/abs/2006.01174), a preprint describing an imaging dataset, and the [large-scale population survey of the COVID-19 pandemic in Spain](https://doi.org/10.2196/21319).
 
-- You will be able to find here "all" about my skills and my academia carrier. You can also see my recent publications, or links to the typical academic information pages like ORCID, Scholar, etc.
+## Beyond research
 
-<center>
-
-*I like to enjoy riding my bike (with my "grupetta") whenever I can, whether in the mountains or on the road... whatever it is, but always to the rhythm of  Motorhead-style R'n'R.*
-
-**Enjoy it!**.
-
-<p>
-</center>
+I am from Dénia, Spain. I graduated in Statistics in 2000 and completed my PhD in 2009, supervised by Javier Morales and Antonio López-Quílez. Outside work, I enjoy rowing, cycling with my grupetta, and the music of Motörhead.
