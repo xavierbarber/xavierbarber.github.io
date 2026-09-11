@@ -16,7 +16,7 @@ description: "Artificial Intelligence research and knowledge transfer, Bayesian 
 <figure class="portrait-frame"><img class="portrait" src="photos/xavier-speaking.svg" alt="Xavier Barber speaking at a cultural event" width="1400" height="933"><figcaption><span>STATISTICS × ARTIFICIAL INTELLIGENCE</span><strong>Connecting methods<br>with meaningful impact.</strong></figcaption></figure>
 </section>
 
-<p class="affiliation"><strong>i-MInD</strong><span lang="es">Instituto en Matemáticas, Inteligencia Artificial y Ciencia de Datos</span></p>
+<div class="affiliation"><a class="umh-logo-link" href="https://portalinvestigacion.umh.es/investigadores/2181582/detalle" aria-label="Xavier Barber — official UMH academic profile"><img class="umh-logo" src="https://comunicacion.umh.es/files/2008/07/PRIMERA-ARTICULACION-COLOR-CMYK_ok.jpg" alt="Universitas Miguel Hernández" loading="lazy"></a><strong>i-MInD</strong><span lang="es">Instituto en Matemáticas, Inteligencia Artificial y Ciencia de Datos</span></div>
 
 <div class="introduction">
 
