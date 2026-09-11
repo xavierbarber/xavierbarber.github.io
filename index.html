@@ -36,6 +36,9 @@ class="orcid-mark" aria-hidden="true">iD</span> ORCID
 <span>STATISTICS × ARTIFICIAL INTELLIGENCE</span><strong>Connecting
 methods<br>with meaningful impact.</strong>
 </figcaption>
+<button class="photo-motion hero-motion" type="button" hidden>
+Pause photo motion
+</button>
 </figure>
 </section>
 <div class="affiliation">
@@ -96,6 +99,9 @@ A closer look
 <h2 id="photo-story-title">
 Research, teaching &amp; life beyond.
 </h2>
+<button class="photo-motion gallery-motion" type="button" hidden>
+Pause photo motion
+</button>
 <div class="photo-grid">
 <figure class="photo-wide">
 <img src="photos/spatial-statistics-talk.svg" alt="Xavier presenting spatio-temporal models and extreme events at a statistics workshop" width="1200" height="900" loading="lazy">
@@ -137,4 +143,27 @@ Universidad Miguel Hernández.
 </div>
 <a class="button primary" href="https://portalinvestigacion.umh.es/investigadores/2181582/detalle">Official
 UMH profile ↗</a>
-</div></main><footer><p><a href="https://portalinvestigacion.umh.es/investigadores/2181582/detalle">Official academic profile · UMH ↗</a></p><p>i-MInD · Universidad Miguel Hernández de Elche</p><p><a href="https://orcid.org/0000-0003-3079-5855">ORCID</a> · <a href="https://scholar.google.com/citations?user=KUzOpI4AAAAJ&amp;hl=en">Google Scholar</a> · <a href="https://www.webofscience.com/wos/author/rid/A-6204-2009">Web of Science</a> · <a href="https://github.com/xavierbarber">GitHub</a> · <a href="https://www.researchgate.net/profile/Xavier-Barber">ResearchGate</a> · <a href="https://x.com/xavibarberumh">X</a></p><p>Updated 11 September 2026 · <a href="mailto:xbarber@umh.es">xbarber@umh.es</a></p></footer></body></html>
+</div>
+<script>
+(() => {
+  const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const controls = document.querySelectorAll('.photo-motion');
+  let playing = !preference.matches;
+  function render() {
+    document.documentElement.classList.toggle('photos-playing', playing);
+    controls.forEach(button => {
+      button.hidden = false;
+      button.textContent = playing ? 'Pause photo motion' : 'Play photo motion';
+    });
+  }
+  controls.forEach(button => button.addEventListener('click', () => {
+    playing = !playing;
+    render();
+  }));
+  preference.addEventListener('change', event => {
+    playing = !event.matches;
+    render();
+  });
+  render();
+})();
+</script></main><footer><p><a href="https://portalinvestigacion.umh.es/investigadores/2181582/detalle">Official academic profile · UMH ↗</a></p><p>i-MInD · Universidad Miguel Hernández de Elche</p><p><a href="https://orcid.org/0000-0003-3079-5855">ORCID</a> · <a href="https://scholar.google.com/citations?user=KUzOpI4AAAAJ&amp;hl=en">Google Scholar</a> · <a href="https://www.webofscience.com/wos/author/rid/A-6204-2009">Web of Science</a> · <a href="https://github.com/xavierbarber">GitHub</a> · <a href="https://www.researchgate.net/profile/Xavier-Barber">ResearchGate</a> · <a href="https://x.com/xavibarberumh">X</a></p><p>Updated 11 September 2026 · <a href="mailto:xbarber@umh.es">xbarber@umh.es</a></p></footer></body></html>
