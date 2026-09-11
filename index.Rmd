@@ -13,7 +13,7 @@ description: "Artificial Intelligence research and knowledge transfer, Bayesian 
 <div class="hero-actions"><a class="button primary" href="xbarber.html">Research &amp; transfer <span aria-hidden="true">↗</span></a><a class="button" href="https://portalinvestigacion.umh.es/investigadores/2181582/detalle">Academia · UMH <span aria-hidden="true">↗</span></a></div>
 <a class="orcid" href="https://orcid.org/0000-0003-3079-5855"><span class="orcid-mark" aria-hidden="true">iD</span> ORCID <span>0000-0003-3079-5855 ↗</span></a>
 </div>
-<figure class="portrait-frame"><img class="portrait" src="photos/xavier-speaking.svg" alt="Xavier Barber speaking at a cultural event" width="1400" height="933"><figcaption><span>STATISTICS × ARTIFICIAL INTELLIGENCE</span><strong>Connecting methods<br>with meaningful impact.</strong></figcaption><button class="photo-motion hero-motion" type="button" hidden>Pause photo motion</button></figure>
+<figure class="portrait-frame"><img class="portrait" src="photos/xavier-speaking.svg" alt="Xavier Barber speaking at a cultural event" width="1400" height="933"><figcaption><span>STATISTICS × ARTIFICIAL INTELLIGENCE</span><strong>Connecting methods<br>with meaningful impact.</strong></figcaption></figure>
 </section>
 
 <div class="affiliation"><a class="umh-logo-link" href="https://portalinvestigacion.umh.es/investigadores/2181582/detalle" aria-label="Xavier Barber — official UMH academic profile"><img class="umh-logo" src="https://comunicacion.umh.es/files/2008/07/PRIMERA-ARTICULACION-COLOR-CMYK_ok.jpg" alt="Universitas Miguel Hernández" loading="lazy"></a><strong>i-MInD</strong><span lang="es">Instituto en Matemáticas, Inteligencia Artificial y Ciencia de Datos</span></div>
@@ -47,7 +47,7 @@ My research includes machine learning for species distribution and clinical pred
 <section class="photo-story" aria-labelledby="photo-story-title">
 <p class="eyebrow">A closer look</p>
 <h2 id="photo-story-title">Research, teaching &amp; life beyond.</h2>
-<button class="photo-motion gallery-motion" type="button" hidden>Pause photo motion</button>
+
 <div class="photo-grid">
 <figure class="photo-wide"><img src="photos/spatial-statistics-talk.svg" alt="Xavier presenting spatio-temporal models and extreme events at a statistics workshop" width="1200" height="900" loading="lazy"><figcaption><span>Research</span><strong>Sharing spatial statistics.</strong></figcaption></figure>
 <figure><img src="photos/teaching-award.svg" alt="UMH Teaching Talent Award 2024 awarded to Josep Xavier Barber Valles, Programa Docentia" width="506" height="900" loading="lazy"><figcaption><span>Teaching</span><strong>UMH · Talento Docente 2024</strong></figcaption></figure>
@@ -63,26 +63,3 @@ I am from Dénia, Spain. I graduated in Statistics in 2000 and completed my PhD 
 <div class="academic-banner"><div><p class="eyebrow">Academia</p><h2>My academic work, in full.</h2><p>Explore my institutional profile, research activity and publications at Universidad Miguel Hernández.</p></div><a class="button primary" href="https://portalinvestigacion.umh.es/investigadores/2181582/detalle">Official UMH profile ↗</a></div>
 
 
-<script>
-(() => {
-  const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const controls = document.querySelectorAll('.photo-motion');
-  let playing = !preference.matches;
-  function render() {
-    document.documentElement.classList.toggle('photos-playing', playing);
-    controls.forEach(button => {
-      button.hidden = false;
-      button.textContent = playing ? 'Pause photo motion' : 'Play photo motion';
-    });
-  }
-  controls.forEach(button => button.addEventListener('click', () => {
-    playing = !playing;
-    render();
-  }));
-  preference.addEventListener('change', event => {
-    playing = !event.matches;
-    render();
-  });
-  render();
-})();
-</script>
