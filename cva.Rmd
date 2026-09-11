@@ -1,125 +1,245 @@
 ---
-title: "Xavier Barber"
-image: "xavi_barber_foto_carnet.jpeg"
-links:
-  # - label: LinkedIn
-  #   url: "https://linkedin.com/"
-  - label: Twitter
-    url: "https://twitter.com/xavibarberumh"
-  - label: GitHub
-    url: "https://github.com/xavierbarber"
-  - label: Orcid
-    url: "https://orcid.org/0000-0003-3079-5855"
-  - label: "Scholar"
-    url: "https://scholar.google.es/citations?hl=es&user=KUzOpI4AAAAJ"
-  - label: "Pubblons"
-    url: "https://publons.com/wos-op/researcher/1425239/xavier-barber/"
-  - label: ResearchGate
-    url: "https://www.researchgate.net/profile/Xavier-Barber"
-output:
-  postcards::trestles
+title: "CV and selected publications"
+description: "Xavier Barber — Artificial Intelligence, spatial statistics, efficiency and productivity research at i-MInD, UMH."
 ---
- 
-## Affiliation
 
-Associate Professor<br>
-Center of Operations Research (CIO)<br>
-Universidad Miguel Hernández de Elche<br>
-Avda. de la Universidad s/n<br>
-3202 Elche (Alicante)– Spain<br>
-Email: xbarber at umh point es<br>
+**Full Professor of Statistics and Operations Research**<br>
+**i-MInD — Instituto en Matemáticas, Inteligencia Artificial y Ciencia de Datos**<br>
+Universidad Miguel Hernández de Elche · Avda. de la Universidad s/n, **03202 Elche**, Alicante, Spain<br>
+[xbarber@umh.es](mailto:xbarber@umh.es)
 
-## CV Summary
-  
-I am Dr. Xavier Barber, born in Dénia, Spain, in 1972. I earned my PhD in statistics in 2009, and as a statistician, I derive great satisfaction from applying statistical methodologies to real-world scenarios. I routinely utilize Bayesian statistics and endeavor to apply spatio-temporal hierarchical techniques to ecological research, particularly within the realm of Species Distribution Modeling. Presently, my primary theoretical and applied interest revolves around quantifying uncertainty in this research domain. Additionally, in my role as the head of the joint research unit UMH-FISABIO, I focus on advanced statistical methods applied to the field of health sciences.
+<p class="lead">Research and knowledge transfer in Artificial Intelligence, Bayesian and spatio-temporal statistics, and efficiency and productivity analysis.</p>
 
-Allow me to briefly outline the most noteworthy accomplishments from my recent academic pursuits:
+<div class="topics"><a href="#artificial-intelligence">Artificial Intelligence</a><a href="#spatial-statistics">Spatial statistics</a><a href="#efficiency-productivity">Efficiency &amp; productivity</a><a href="#highly-cited">Highly cited work</a><a href="#academic-profile">Academic profile</a></div>
 
-- I have authored over 100 publications, including articles in JCR journals, SCOPUS, dialnet, book chapters, and conference proceedings. Notably, I have developed or contributed to 49 articles in JCR journals. My research journey commenced with a 'Formación de Personal Investigador (FPI)' grant (1997-2005), initially tied to Public Health, resulting in my early publications in journals such as BMC Cancer, Journal of Epidemiology and Community Health, European Journal of Epidemiology, among others. Subsequently, my academic path led me to the Polytechnic School of Orihuela, where my research found its footing in Agronomy and Food Technology—an area in which I remain active today, spanning topics such as Food Quality, Food Chemistry, Crops and Industrial Products, Soil Science, and Plant Analysis. I have received two CNEAI periods (2008-2013, 2014-2019) and one AVAP (2005-2010). Regrettably, I am ineligible to apply for periods preceding 2005 due to my tenure in private companies, which is incompatible with such applications. Nevertheless, I have publications with a substantial number of citations from the period 1997-2004.
+## Selected publications
 
-- From 2020 to 2022, I was a part of 'Valencia IA 4 Covid,' a taskforce working group led by Dr. Nuria Oliver, which provided counsel to the Regional Government utilizing Artificial Intelligence to combat Covid-19. Our group emerged as the victor of the worldwide Xprize 'Pandemic Response Challenge,' and I have contributed multiple publications on this subject.
+These publications highlight methodological research and interdisciplinary contributions. Papers may belong to more than one research area. The complete record is available on [ORCID](https://orcid.org/0000-0003-3079-5855) and [Google Scholar](https://scholar.google.com/citations?user=KUzOpI4AAAAJ&hl=en).
 
-- Within the realm of Bayesian Spatial Statistics, my work has been featured in journals such as Mathematics, JABES, SORT, and GeoSpatial Health. I have also presented over 30 papers at conferences (out of a total of 227), including 8 invited talks.
+Citation counts below are those displayed by Google Scholar on **11 September 2026**. Asterisks are retained as displayed in Scholar. Counts refer to the listed records; citations from separate preprint or duplicate records have not been added.
 
-- I have participated in more than 20 projects (continuous funding since 2006 through MTM or GV) and research contracts, often in the role of principal investigator. I am a member of the National Network BIOSTATNET, Valencia-VaBaR Node, and the AIDS Research Network, CIBER-Infecciosas.
+## Artificial Intelligence and Decision Making {#artificial-intelligence}
 
-- Regarding knowledge transfer, I played a role in the establishment of the spin-off company Compostingreen S.L. and contributed to the development of significant statistical software, including one created for Eurostat, used for predicting agricultural production in the EU. Additionally, I have worked on the 'eat:efficiency analysis trees' R-package, a valuable tool.
+Machine learning, Bayesian networks, generative AI and data-driven decision support connect several strands of my research. Papers in this collection also retain their spatial-statistics or efficiency-and-productivity classification where appropriate.
 
-- I earned the Best Poster Award at the International Workshop on Statistical Modelling 2010, where I presented a poster on my thesis titled 'Geostatistical models for the study of bioclimatic indices.' I have also received 3 UMH awards for Research Production.
+- [Machine learning applied to global scale species distribution models](#global-species) — 2025.
+- [Estimating production functions through additive models based on regression splines](#production-splines) — 2024.
+- [An adaptation of Random Forest to estimate convex non-parametric production technologies: an empirical illustration of efficiency measurement in education](#random-forest) — 2025.
+- [eat: An R Package for fitting Efficiency Analysis Trees](#eat) — 2022.
+- [Estimating production technologies using multi-output adaptive constrained enveloping splines](#multi-output) — 2025.
+- [BIMCV COVID-19+: a large annotated dataset of RX and CT images from COVID-19 patients](#bimcv) — 2020.
+- [Bayesian Networks for the Diagnosis and Prognosis of Diseases: A Scoping Review](#bayesian-networks) — 2024.
+- [Concordance Between Clinical Practice Recommendations Generated by Generative Artificial Intelligence and the Vía RICA 2026 Enhanced Recovery Guideline: A Proof-of-Concept Study Using a Closed Evidence Corpus](#ai-guidelines) — 2026.
+- [A calculator for musculoskeletal injuries prediction in surgeons: a machine learning approach](#surgeon-calculator) — 2024.
+- [Discovering HIV related information by means of association rules and machine learning](#hiv-ml) — 2022.
+- [UMLS-ChestNet: A deep convolutional neural network for radiological findings, differential diagnoses and localizations of COVID-19 in chest x-rays](#umls) — 2020.
 
-- My teaching experience extends from 2004, encompassing both undergraduate and postgraduate levels. Since 2018, I have held the position of Associate Professor. I have been invited to teach in more than 20 postgraduate courses and subjects, as well as engage in various teaching activities across different institutions. In 2016, I received the Teaching Talent Award, and in 2020, I received positive assessments within the DOCENTIA program.
+## Spatial and Spatio-temporal Statistics {#spatial-statistics}
 
-- I have supervised 67 Master's Theses (58 Master's Degrees in Secondary Education and 9 research master's degrees), 11 Final Theses, 1 Final Thesis Erasmus+, and 5 Final Degree Projects. Additionally, I have provided guidance to over 20 internship students.
+<section id="spatial-misalignment">
 
-- My commitment to continual improvement in teaching is evident through the publication of 11 teaching papers, involvement in 8 innovation projects (5 as the principal investigator), and the acquisition of the title of university expert in Technological Innovation in Education. I have also participated in more than 20 training courses and conferences. Consequently, I have transitioned from being a learner to being an educator, delivering training courses within the UMH-plan for teaching innovation.
+[Modelling the presence of disease under spatial misalignment using Bayesian latent Gaussian models](https://doi.org/10.4081/gh.2016.415) — Barber, Conesa, Lladosa and López-Quílez; *Geospatial Health*. **2016.**
 
-- In the realm of university management, I served as Deputy Vice Rector for Research from 2011 to the present (2011-2015, 2015-2019, 2019-). Since 2015, I have held the position of President of the Animal Welfare Body of the UMH. I also serve as Secretary of the UMH Research Commission and as a Member of the Doctoral Commission.
+<span class="tag">Spatial &amp; environmental statistics</span> <span class="tag">17 citations</span>
 
-- From 2014 to 2019, I held the role of Treasurer for the Spanish Society of Biostatistics (Spanish region of the International Biometric Society).
+</section>
 
-- I lead the research group 'Techniques and Applications in Biostatistics,' which has received positive evaluations within the EAITTDiC of the University, following the regulations approved by the Governing Council in March 2017. I am also a member of the 'Valencia Bayesian Research Group' and the 'SEIO-Bayes group' since 2014. I serve as the head of the 'Joint Research Unit for statistical methods in health sciences UMH-FISABIO.'
+<section id="bioclimatic">
 
-## Last publications
+[Multivariate Bioclimatic Indices Modelling: A Coregionalised Approach](https://doi.org/10.1007/s13253-018-00345-z) — Barber, Conesa, López-Quílez and Morales; *Journal of Agricultural, Biological and Environmental Statistics*. **2019.**
 
-- España, V. J., Aparicio, J., Barber, X., & Esteve, M.. Estimating production functions through additive models based on regression splines. European Journal of Operational Research 2023; 312(2); 648-699.
+<span class="tag">Spatial &amp; environmental statistics</span> <span class="tag">4 citations</span>
 
-- Rocha, D. R., Barber, X., Jordán-Vidal, M. M., Urbano, A., Melquiades, F. L., Thomaz, E. L., & Mataix-Solera, J. (2022). Multivariate Analysis with XRD Data as a Fingerprinting Technique to Study Burned Soils. Minerals, 12(11), 1402.
+</section>
 
-- Gomis M.P., Pérez-Murcia M.D., **Barber X.**, Martínez-Sabater E., Moral R., Bustamante M.Á..Development and Validation of Alternative Palm-Derived Substrates for Seedling Production.Agronomy 2022 1210.3390/agronomy12061377
+<section id="biotic">
 
-- Esteve, M., España, V., Aparicio, J., & Barber, X. (2022). eat: An R Package for fitting Efficiency Analysis Trees. R JOURNAL, 14(3), 249-281.
+[Incorporating Biotic Information in Species Distribution Models: A Coregionalized Approach](https://doi.org/10.3390/math9040417) — Barber et al.; *Mathematics*. **2021.**
 
-- Pérez-Murcia M.D., Martínez-Sabater E., Domene M.A., González-Céspedes A., Bustamante M.A., Marhuenda-Egea F.C., **Barber X.**, López-Lluch D.B., Moral R..Role of proteins and soluble peptides as limiting components during the co-composting of agro-industrial wastes.Journal of Environmental Management 2021 30010.1016/j.jenvman.2021.113701
+<span class="tag">Spatial &amp; environmental statistics</span> <span class="tag">15 citations</span>
 
-- Barber, X., Falcó, A., & Martinez-Garcia, M. (2022). On the Probabilistic Extension of the Classical Epidemiological Compartmental Model. In Nonlinear Dynamics and Complexity: Mathematical Modelling of Real-World Problems (pp. 175-200). Cham: Springer International Publishing.
+</section>
 
-- Martinez-Garcia M., Rabasa A., **Barber X.**, Polotskaya K., Roomp K., Oliver N..Key factors affecting people’s unwillingness to be confined during the COVID-19 pandemic in Spain: a large-scale population study.Scientific Reports 2021 1110.1038/s41598-021-97645-1
+<section id="feedback">
 
-- López-Rodríguez-Arias F., Sánchez-Guillén L., Aranaz-Ostáriz V., Triguero-Cánovas D., Lario-Pérez S., **Barber-Valles X.**, Lacueva F.J., Ramirez J.M., Arroyo A..Effect of home-based prehabilitation in an enhanced recovery after surgery program for patients undergoing colorectal cancer surgery during the COVID-19 pandemic.Supportive Care in Cancer 2021 2910.1007/s00520-021-06343-1
+[Bayesian feedback in the framework of ecological sciences](https://doi.org/10.1016/j.ecoinf.2024.102858) — Figueira et al.; *Ecological Informatics*. **2024.**
 
-- Herlin M., Sánchez-Pérez I., Esteban J., Korkalainen M., **Barber X.**, Finnilä M.A.J., Hamscher G., Joseph B., Viluksela M., Håkansson H..Bone toxicity induced by 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD) and the retinoid system: A causality analysis anchored in osteoblast gene expression and mouse data.Reproductive Toxicology 2021 10510.1016/j.reprotox.2021.07.013
-- Guilabert F.J., **Barber X.**, Pérez-Murcia M.D., Agulló E., Andreu-Rodríguez F.J., Moral R., Bustamante M.Á..Management of green waste streams from different origins: Assessment of different composting scenarios.Agronomy 2021 1110.3390/agronomy11091870
+<span class="tag">Spatial &amp; environmental statistics</span> <span class="tag">9 citations</span>
 
-- López-Rodríguez-arias F., Sánchez-Guillén L., Lillo-García C., Aranaz-Ostáriz V., Alcaide M.J., Soler-Silva Á., Soriano-Irigaray L., **Barber X.**, Arroyo A..Assessment of body composition as an indicator of early peripheral parenteral nutrition therapy in patients undergoing colorectal cancer surgery in an enhanced recovery program.Nutrients 2021 1310.3390/nu13093245
+</section>
 
-- Sánchez-Guillén L., Soriano-Irigaray L., López-Rodríguez-arias F., **Barber X.**, Murcia A., Alcaide M.J., Aranaz-Ostáriz V., Soler-Silva Á., Navarro-Ruiz A., Arroyo A..Effect of early peripheral parenteral nutrition support in an enhanced recovery program for colorectal cancer surgery: A randomized open trial.Journal of Clinical Medicine 2021 1010.3390/jcm10163647
+<section id="global-species">
 
-- **Barber X.**, García-Gómez J.A., Martínez-Vidal M.P., Álvarez-Cienfuegos A..Reply letter: Benefits of the Bayes factor in rheumatology research [Carta de réplica: beneficios del factor Bayes en la investigación de reumatología].Revista Colombiana de Reumatologia 2021 2810.1016/j.rcreu.2021.04.004
+[Machine learning applied to global scale species distribution models](https://doi.org/10.1038/s41598-025-20797-x) — Fuster-Alonso et al.; *Scientific Reports*. **2025.**
 
-- **Barber X.**, Conesa D., López-Quílez A., Martínez-Minaya J., Paradinas I., Pennino M.G..Incorporating biotic information in species distribution models: A coregionalized approach.Mathematics 2021 910.3390/math9040417
+<span class="tag">Artificial Intelligence</span> <span class="tag">Spatial &amp; environmental statistics</span> <span class="tag">14* citations</span>
 
-- Aguilar-Martinez M.D.M., Sanchez-Guillen L., **Barber-Valles X.**, Alcaide-Quiros M.J., Bosch-Ramirez M., Lopez-Delgado A., Tozer P., Arroyo A..Long-term Evaluation of Fistulotomy and Immediate Sphincteroplasty as a Treatment for Complex Anal Fistula.Diseases of the Colon and Rectum 2021 10.1097/DCR.0000000000001800
+</section>
 
-- Oliver N., **Barber X.**, Roomp K., Roomp K..Assessing the impact of the COVID-19 pandemic in Spain: Large-scale, online, self-reported population survey.Journal of Medical Internet Research 2020 2210.2196/21319
+<section id="heatwaves">
 
-- Arroyo A., Sánchez-Guillén L., Parra P.A., García-Catalá L., Peña-Ros E., Ferrer-Márquez M., Nofuentes Riera C., **Barber-Valles X.**, Romero-Simó M..Photodynamic Therapy for the Treatment of Complex Anal Fistula.Lasers in Surgery and Medicine 2020 5210.1002/lsm.23162
-- **Barber X.**, Conesa D., López-Quílez A., Morales J..Multivariate Bioclimatic Indices Modelling: A Coregionalised Approach.Journal of Agricultural, Biological, and Environmental Statistics 2019 2410.1007/s13253-018-00345-z
+[Marine heatwaves in the western Mediterranean: Considerations for coastal aquaculture adaptation](https://doi.org/10.1016/j.aquaculture.2024.740917) — Atalah, Ibañez, Aixalà, Barber and Sánchez-Jerez; *Aquaculture*. **2024.**
 
-- Senabre Gallego J.M., Rosas J., Marco-Mingot M., García-Gómez J.A., Santos-Soler G., Salas-Heredia E., Pons-Bas A., Barber-Vallés X., Bernal-Vidal J.A., Cano-Pérez C., García-Carrasco M., Flores-Pardo E., AIRE-MB Group.Clinical relevance of monitoring serum adalimumab levels in axial spondyloarthritis.Rheumatology International 2019 10.1007/s00296-019-04288-7
+<span class="tag">Spatial &amp; environmental statistics</span> <span class="tag">36 citations</span>
 
-- Lantos P.M., Maradiaga-Panayotti G., **Barber X.**, Raynor E., Tucci D., Hoffman K., Permar S.R., Jackson P., Hughes B.L., Kind A., Swamy G.K..Geographic and Racial Disparities in Infant Hearing Loss.Otolaryngology - Head and Neck Surgery (United States) 2018 15910.1177/0194599818803305
+</section>
 
-- Masiá M., Padilla S., Moreno S., **Barber X.**, Iribarren J.A., Del Romero J., Gómez-Sirvent J.L., Rivero M., Vidal F., Campins A.A., Gutiérrez F., Cohorte de la Red de Investigacion en Sida (CoRIS).Prediction of long-term outcomes of HIV-infected patients developing non-AIDS events using a multistate approach.PLoS ONE 2017 1210.1371/journal.pone.0184329
 
-- **Barber X.**, Conesa D., López-Quílez A., Mayoral A., Morales J., Barber A..Bayesian hierarchical models for analysing the spatial distribution of bioclimatic indices.SORT 2017 4110.2436/20.8080.02.60
+## Efficiency and Productivity Analysis {#efficiency-productivity}
 
-- Masiá M., Padilla S., Fernández M., **Barber X.**, Moreno S., Iribarren J.A., Portilla J., Peña A., Vidal F., Gutiérrez F..Contribution of Oxidative Stress to Non-AIDS Events in HIV-Infected Patients.Journal of Acquired Immune Deficiency Syndromes 2017 7510.1097/QAI.0000000000001287
+Research with **Juan Aparicio** and colleagues on production frontiers, machine learning and open-source R software.
 
-- Rosas J., Llinares-Tello F., Senabre-Gallego J.M., Barber-Vallés X., Santos-Soler G., Salas-Heredia E., Bas A.P., Pérez C.C., Carrasco M.G., Betoret M.L., Mingot M.M., García J.M., Ramírez C.S., Selfa M.S..Obesity decreases clinical efficacy and levels of adalimumab in patients with ankylosing spondylitis.Clinical and Experimental Rheumatology 2017 35
+<section id="production-splines">
 
-- Noguera-Artiaga L., Lipan L., Vázquez-Araújo L., **Barber X.**, Pérez-López D., Carbonell-Barrachina ÁA..Opinion of Spanish Consumers on Hydrosustainable Pistachios.Journal of food science 2016 8110.1111/1750-3841.13501
+[Estimating production functions through additive models based on regression splines](https://doi.org/10.1016/j.ejor.2023.06.035) — España, Aparicio, Barber and Esteve; *European Journal of Operational Research*, 312(2), 684–699. **2024.**
 
-- Marín-Martínez R., **Barber X.**, Cabrera-Vique C., Carbonell-Barrachina Á.A., Vilanova E., García-Hernández V.M., Roche E., Garcia-Garcia E..Aluminium, nickel, cadmium and lead in candy products and assessment of daily intake by children in Spain.Food Additives and Contaminants: Part B Surveillance 2016 910.1080/19393210.2015.1131753
-- **Barber X.**, Conesa D., Lladosa S., López-Quílez A..Modelling the presence of disease under spatial misalignment using Bayesian latent Gaussian models.Geospatial Health 2016 1110.4081/gh.2016.415
+<span class="tag">Artificial Intelligence</span> <span class="tag">Efficiency &amp; productivity</span> <span class="tag">33 citations</span>
 
-- Masiá M., Padilla S., **Barber X.**, Sanchis M., Terol G., Lidón F., Gutiérrez F..Comparative impact of suppressive antiretroviral regimens on the CD4/CD8 T-cell ratio: A cohort study.Medicine (United States) 2016 9510.1097/MD.0000000000003108
-Gullon B., Pintado M.E., **Barber X.**, Fernández-López J., Pérez-Álvarez J.A., Viuda-Martos M..Bioaccessibility, changes in the antioxidant potential and colonic fermentation of date pits and apple bagasse flours obtained from co-products during simulated in vitro gastrointestinal digestion.Food Research International 2015 7810.1016/j.foodres.2015.10.021
+</section>
 
-- Ruiz-Navajas Y., Viuda-Martos M., **Barber X.**, Sendra E., Perez-Alvarez J.A., Fernández-López J..Effect of chitosan edible films added with Thymus moroderi and Thymus piperella essential oil on shelf-life of cooked cured ham.Journal of Food Science and Technology 2015 5210.1007/s13197-015-1733-3
-- Viuda-Martos M., **Barber X.**, Pérez-Álvarez J.A., Fernández-López J..Assessment of chemical, physico-chemical, techno-functional and antioxidant properties of fig (Ficus carica L.) powder co-products.Industrial Crops and Products 2015 6910.1016/j.indcrop.2015.03.005
+<section id="random-forest">
 
-- Trigueros L., **Barber X.**, Sendra E..Conjugated linoleic acid content in fermented goat milk as affected by the starter culture and the presence of free linoleic acid.International Journal of Dairy Technology 2015 6810.1111/1471-0307.12177
+[An adaptation of Random Forest to estimate convex non-parametric production technologies: an empirical illustration of efficiency measurement in education](https://doi.org/10.1111/itor.13561) — España, Aparicio and Barber; *International Transactions in Operational Research*, 32(5), 2523–2546. **2025.**
 
-- Martin-Mata J., Marhuenda-Egea F.C., Moral R., Torres-Climent A., Martínez-Sabater E., Paredes C., **Barber X.**, Morales J..Characterization of Dissolved Organic Matter from Sewage Sludge using 3D-Fluorescence Spectroscopy and Chemometric Tools.Communications in Soil Science and Plant Analysis 2015 4610.1080/00103624.2014.988590
+<span class="tag">Artificial Intelligence</span> <span class="tag">Efficiency &amp; productivity</span> <span class="tag">14 citations</span>
 
-- Torres-Climent A., Martin-Mata J., Marhuenda-Egea F., Moral R., **Barber X.**, Perez-Murcia M.D., Paredes C..Composting of the Solid Phase of Digestate from Biogas Production: Optimization of the Moisture, C/N Ratio, and pH Conditions.Communications in Soil Science and Plant Analysis 2015 4610.1080/00103624.2014.988591
+</section>
+
+<section id="eat">
+
+[eat: An R Package for fitting Efficiency Analysis Trees](https://doi.org/10.32614/RJ-2022-054) — Esteve, España, Aparicio and Barber; *The R Journal*, 14(3), 249–281. **2022.**
+
+<span class="tag">Artificial Intelligence</span> <span class="tag">Efficiency &amp; productivity</span> <span class="tag">9 citations</span>
+
+</section>
+
+<section id="multi-output">
+
+[Estimating production technologies using multi-output adaptive constrained enveloping splines](https://doi.org/10.1016/j.cor.2025.107242) — España, Aparicio and Barber; *Computers & Operations Research*, article 107242. **2025.**
+
+<span class="tag">Artificial Intelligence</span> <span class="tag">Efficiency &amp; productivity</span> <span class="tag">5 citations</span>
+
+</section>
+
+
+## Selected Highly Cited and Interdisciplinary Work {#highly-cited}
+
+<section id="bimcv">
+
+[BIMCV COVID-19+: a large annotated dataset of RX and CT images from COVID-19 patients](https://arxiv.org/abs/2006.01174) — de la Iglesia Vayá et al.; arXiv:2006.01174. **2020.**
+
+<span class="tag">Artificial Intelligence</span> <span class="tag">Preprint · Dataset resource</span> <span class="tag">304 citations</span>
+
+</section>
+
+<section id="covid-survey">
+
+[Assessing the Impact of the COVID-19 Pandemic in Spain: Large-Scale, Online, Self-Reported Population Survey](https://doi.org/10.2196/21319) — Oliver, Barber, Kirsten Roomp and Kristof Roomp; *Journal of Medical Internet Research*, 22(9), e21319. **2020.**
+
+<span class="tag">155* citations</span>
+
+</section>
+
+<section id="fig">
+
+[Assessment of chemical, physico-chemical, techno-functional and antioxidant properties of fig (Ficus carica L.) powder co-products](https://doi.org/10.1016/j.indcrop.2015.03.005) — Viuda-Martos, Barber, Pérez-Álvarez and Fernández-López; *Industrial Crops and Products*, 69, 472–479. **2015.**
+
+<span class="tag">134 citations</span>
+
+</section>
+
+<section id="esophageal">
+
+[Esophageal cancer risk by type of alcohol drinking and smoking: a case-control study in Spain](https://doi.org/10.1186/1471-2407-8-221) — Vioque et al.; *BMC Cancer*, 8, 221. **2008.**
+
+<span class="tag">123 citations</span>
+
+</section>
+
+<section id="prehabilitation">
+
+[Effect of home-based prehabilitation in an enhanced recovery after surgery program for patients undergoing colorectal cancer surgery during the COVID-19 pandemic](https://doi.org/10.1007/s00520-021-06343-1) — López-Rodríguez-Arias et al.; *Supportive Care in Cancer*, 29, 7785–7791. **2021.**
+
+<span class="tag">103 citations</span>
+
+</section>
+
+<section id="bayesian-networks">
+
+[Bayesian Networks for the Diagnosis and Prognosis of Diseases: A Scoping Review](https://doi.org/10.3390/make6020058) — Polotskaya et al.; *Machine Learning and Knowledge Extraction*, 6(2), 1243–1262. **2024.**
+
+<span class="tag">Artificial Intelligence</span> <span class="tag">75 citations</span>
+
+</section>
+
+## Further Artificial Intelligence Publications
+
+<section id="ai-guidelines">
+
+### [Concordance Between Clinical Practice Recommendations Generated by Generative Artificial Intelligence and the Vía RICA 2026 Enhanced Recovery Guideline: A Proof-of-Concept Study Using a Closed Evidence Corpus](https://doi.org/10.3390/make8090256)
+
+Moral, A.; Arroyo, A.; Aparicio, J.; Barber, X. **2026.** *Machine Learning and Knowledge Extraction, 8(9), 256.*
+
+<span class="tag">Artificial Intelligence</span>
+
+</section>
+
+<section id="surgeon-calculator">
+
+### [A calculator for musculoskeletal injuries prediction in surgeons: a machine learning approach](https://doi.org/10.1007/s00464-024-11237-4)
+
+Sánchez-Guillén, L., et al. **2024.** *Surgical Endoscopy, 38, 6577–6585.*
+
+<span class="tag">Artificial Intelligence</span>
+
+</section>
+
+<section id="hiv-ml">
+
+### [Discovering HIV related information by means of association rules and machine learning](https://doi.org/10.1038/s41598-022-22695-y)
+
+Araujo, L.; Martinez-Romo, J.; Bisbal, O.; Sanchez-de-Madariaga, R.; The Cohort of the National AIDS Network (CoRIS). **2022.** *Scientific Reports, 12, 18208. CoRIS collaboration.*
+
+<span class="tag">Artificial Intelligence</span>
+
+</section>
+
+<section id="umls">
+
+### [UMLS-ChestNet: A deep convolutional neural network for radiological findings, differential diagnoses and localizations of COVID-19 in chest x-rays](https://arxiv.org/abs/2006.05274)
+
+González, G., et al. **2020.** *arXiv:2006.05274 · Preprint.*
+
+<span class="tag">Artificial Intelligence</span>
+
+</section>
+
+## Academic profile {#academic-profile}
+
+### Education
+
+- **PhD, 2009**, Universidad Miguel Hernández de Elche. Research on geostatistical models for bioclimatic indices, supervised by Javier Morales and Antonio López-Quílez.
+- **Licenciatura in Statistical Sciences and Techniques, 2000**, Universidad Miguel Hernández de Elche.
+- **Diplomatura in Statistics, 1996**, Universidad de Alicante.
+
+### Teaching and supervision
+
+University teaching since 2005 across statistics, econometrics, Bayesian modelling, data analysis, time series and experimental design, at undergraduate and postgraduate levels. Teaching has included programmes at UMH and Universitat de València.
+
+Supervision of doctoral, master’s and undergraduate research in statistical modelling, environmental analysis, health sciences, and efficiency and productivity. Current research supervision includes Bayesian diagnostic modelling and spatio-temporal environmental analysis.
+
+Teaching recognition includes **Talento Docente awards** and **Excellent evaluations in the DOCENTIA-UMH programme**.
+
+### Research projects and knowledge transfer
+
+Participation in regional, national and European research projects, including climate-risk modelling in aquaculture through MODESTA–ThinkInAzul, Bayesian environmental modelling, and health research. Applied work connects hospitals, public institutions and industrial partners.
+
+Knowledge-transfer activities include statistical and machine-learning consulting, the `eat` R package, and training public administrations in generative AI, prompt engineering and responsible use of large language models.
+
+[More about Artificial Intelligence research and knowledge transfer](xbarber.html).
+
+### Scientific leadership
+
+Chair of the Representative Council of the **International Biometric Society, 2026–2027**, and head of the **UMH–FISABIO Joint Research Unit on Statistical Methods in Health Sciences**. Deputy Vice-Rector for Research at UMH from **2011 to 2023**.
+
+Editorial and peer-review activity includes statistical editing for *Public Health Nutrition* and reviewing in statistics, ecology and health sciences.
