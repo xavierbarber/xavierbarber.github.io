@@ -22,6 +22,13 @@ I work on machine learning, Bayesian networks and interpretable models for predi
 - **Public-sector training:** specialised courses in generative AI, prompt engineering, document analysis with large language models, and responsible use of AI in administrative workflows.
 - **Health collaboration:** leadership of the UMH–FISABIO Joint Research Unit on Statistical Methods in Health Sciences (STATSALUT).
 
+## Applied expertise at a glance {#transfer-infographic}
+
+Explore examples of my work with companies, public administrations and research teams: human-centred AI, health, environmental management, industry, efficiency and specialised training.
+
+<p><a class="button primary" href="downloads/xavier-barber-ia-ciencia-datos.pdf" download>Download infographic · PDF (Spanish)</a></p>
+<p><small>One-page visual overview · 1.2 MB · Updated September 2026.</small></p>
+
 ## Bayesian and spatio-temporal statistics
 
 My interests include hierarchical spatial models, spatial misalignment, multivariate geostatistics and coregionalisation, species distribution modelling, and environmental forecasting. A central question is how to account for uncertainty when combining observations collected at different spatial and temporal scales.

@@ -34,6 +34,8 @@ My research includes machine learning for species distribution and clinical pred
 
 [Explore research and knowledge transfer](xbarber.html) · [Read my CV and selected publications](cva.html)
 
+[Download my applied expertise infographic · PDF in Spanish](downloads/xavier-barber-ia-ciencia-datos.pdf)
+
 <div class="highlights">
 
 ## Selected research highlights
