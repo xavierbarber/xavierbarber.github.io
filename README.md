@@ -1,24 +1,27 @@
-# Xavier Barber’s personal website
+# Xavier Barber — professional website
 
-Published with GitHub Pages at https://xavierbarber.github.io/.
+Published at https://xavierbarber.github.io/ using GitHub Pages.
 
-The editable page sources are `index.Rmd`, `xbarber.Rmd` and `cva.Rmd`.
-The pages contain Markdown and HTML, with no executable R chunks.
+## Editing and building
 
-Build with Python 3 and Pandoc:
+- `build_professional_site.py`: bilingual editorial content and shared page structure.
+- `cva.Rmd`: original publication records, author lists, DOI links and citation counts.
+- `assets/site.css` and `assets/site.js`: responsive layout and accessible mobile navigation.
+- `photos/`: existing photography; `downloads/`: downloadable professional profile.
+
+Run with Python 3 and Pandoc:
 
 ```sh
 python3 build_site.py
-# Or specify the executable:
+# Optional explicit Pandoc path:
 python3 build_site.py --pandoc /path/to/pandoc
 ```
 
-Commit the sources together with the regenerated HTML files. GitHub Pages serves
-the HTML in the repository root. `profile.css` and `site-template.html` provide
-the shared responsive layout. The older `_site.yml` describes the legacy Distill
-build; use `build_site.py` for these three updated pages.
+The builder generates five Spanish pages in the root and five English pages in
+`en/`. Commit both sources and generated HTML. GitHub Pages serves the static
+files directly. Earlier Rmd sources other than `cva.Rmd`, `_site.yml`,
+`profile.css` and `site-template.html` are legacy files, not the current build.
 
-Publication citation counts were read from Google Scholar on 11 September 2026.
-Update the access date whenever refreshing counts. Do not add citation counts
-from duplicate or preprint records. Preserve original titles and author order,
-and label preprints and consortium collaborations explicitly.
+Original publication titles and author order must be preserved. Citation counts
+were consulted on 11 September 2026; update that date when refreshing counts.
+Do not combine duplicate or preprint citation records.

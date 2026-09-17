@@ -1,0 +1,3 @@
+const toggle=document.querySelector('.menu-toggle');
+const links=document.querySelector('.nav-links');
+if(toggle&&links){toggle.addEventListener('click',()=>{const open=toggle.getAttribute('aria-expanded')!=='true';toggle.setAttribute('aria-expanded',String(open));links.classList.toggle('open',open)});document.addEventListener('keydown',e=>{if(e.key==='Escape'&&toggle.getAttribute('aria-expanded')==='true'){toggle.setAttribute('aria-expanded','false');links.classList.remove('open');toggle.focus()}});links.addEventListener('click',e=>{if(e.target.closest('a')){toggle.setAttribute('aria-expanded','false');links.classList.remove('open')}})}
