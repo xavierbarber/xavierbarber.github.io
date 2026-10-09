@@ -1,27 +1,40 @@
-# Xavier Barber — professional website
+# Xavier Barber — trilingual professional website
 
-Published at https://xavierbarber.github.io/ using GitHub Pages.
+Published at https://xavierbarber.github.io/ with GitHub Pages. Spanish is the
+default; Valencian Catalan lives in `/ca/` (`lang="ca-valencia"`) and British
+English in `/en/` (`lang="en-GB"`). Language links preserve section anchors.
 
-## Editing and building
+## Edit and build
 
-- `build_professional_site.py`: bilingual editorial content and shared page structure.
-- `cva.Rmd`: original publication records, author lists, DOI links and citation counts.
-- `assets/site.css` and `assets/site.js`: responsive layout and accessible mobile navigation.
-- `photos/`: existing photography; `downloads/`: downloadable professional profile.
-
-Run with Python 3 and Pandoc:
+- `content/es.json`, `content/ca.json`, `content/en.json`: complete editorial translations.
+- `content/papers.json`: six AI-related research highlights selected from the
+  author's Google Scholar CSV supplied on 9 October 2026. That export has no
+  citation-count column. DOI links are retained from the previously checked CV.
+- `cva.Rmd`: the extended publication catalogue. Preserve original titles,
+  authors and DOI links. Citation counts in this catalogue were consulted on
+  11 September 2026; they are not counts from the new CSV.
+- `build_professional_site.py`: shared static templates, linked sections and catalogue extraction.
+- `assets/site.css`, `assets/site.js`: responsive design, mobile navigation and publication filters.
+- `photos/`, `downloads/`: existing authorised imagery and the Spanish infographic.
 
 ```sh
 python3 build_site.py
-# Optional explicit Pandoc path:
+# Optional:
 python3 build_site.py --pandoc /path/to/pandoc
 ```
 
-The builder generates five Spanish pages in the root and five English pages in
-`en/`. Commit both sources and generated HTML. GitHub Pages serves the static
-files directly. Earlier Rmd sources other than `cva.Rmd`, `_site.yml`,
-`profile.css` and `site-template.html` are legacy files, not the current build.
+Requires Python 3 and Pandoc. Generates fifteen HTML pages, sitemap.xml and
+robots.txt. Commit the generated pages alongside the sources; no server runtime
+or JavaScript framework is required. The English edition uses British spelling;
+the Valencian edition uses Valencian forms. Original article titles stay in
+their original language. The downloadable PDF is labelled as Spanish in all editions.
 
-Original publication titles and author order must be preserved. Citation counts
-were consulted on 11 September 2026; update that date when refreshing counts.
-Do not combine duplicate or preprint citation records.
+The homepage contains profile, AI publications, projects, human-centred AI,
+training, personal interests and contact. Existing about.html, xbarber.html,
+training.html and cva.html URLs remain available. Email links open the visitor's
+email application; no form claims to send messages without a backend.
+
+The cycling frame comes from the user's video. The withdrawn photograph of the
+dolçaina group must not be republished. Music is represented by a CSS motif.
+Older Rmd files other than cva.Rmd, profile.css, site-template.html and _site.yml
+are retained as legacy sources and are not used by this build.

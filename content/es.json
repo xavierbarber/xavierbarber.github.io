@@ -1,0 +1,193 @@
+{
+  "lang": "es",
+  "label": "Español",
+  "title": "Inteligencia artificial, ciencia de datos y personas",
+  "nav": [
+    "Investigación",
+    "Proyectos",
+    "IA humanista",
+    "Formación",
+    "Mi lado personal"
+  ],
+  "talk": "Hablemos",
+  "menu": "Menú",
+  "skip": "Saltar al contenido",
+  "language": "Elegir idioma",
+  "eyebrow": "Xavier Barber · Ciencia de datos con criterio",
+  "hero": [
+    "Datos con rigor.",
+    "IA con propósito."
+  ],
+  "intro": "Conecto investigación, inteligencia artificial y conocimiento del problema para ayudar a empresas, administraciones y equipos científicos a decidir mejor.",
+  "cta": "Hablemos de tu proyecto",
+  "researchcta": "Explora mi investigación",
+  "role": "Catedrático UMH · Subdirector de i-MInD · Director de la Unidad Mixta UMH–FISABIO",
+  "photoalt": "Xavier Barber interviniendo en un acto cultural",
+  "photocaption": "Investigación, transferencia y una forma cercana de compartir conocimiento.",
+  "credentials": [
+    [
+      "i-MInD · UMH",
+      "Matemáticas, ciencia de datos e IA"
+    ],
+    [
+      "UMH–FISABIO",
+      "Métodos estadísticos en ciencias de la salud"
+    ],
+    [
+      "International Biometric Society",
+      "Chair del Representative Council · 2026–2027"
+    ]
+  ],
+  "aboutlabel": "01 / PERFIL",
+  "abouttitle": "Una base científica. Muchas formas de aportar.",
+  "aboutlead": "La buena solución empieza por entender bien la pregunta.",
+  "aboutparagraphs": [
+    "Soy catedrático de Estadística e Investigación Operativa en la Universidad Miguel Hernández de Elche, subdirector de i-MInD y director de la Unidad Mixta de Investigación UMH–FISABIO en Métodos Estadísticos en Ciencias de la Salud.",
+    "Mi trabajo combina aprendizaje automático, modelos bayesianos, análisis espacial y evaluación de la eficiencia. Colaboro con especialistas en salud, medio ambiente, industria y economía para transformar los datos en evidencia y herramientas útiles.",
+    "La transferencia forma parte de esa manera de investigar: desarrollar métodos, validarlos en su contexto y trabajar con las personas que van a utilizarlos."
+  ],
+  "profilecta": "Trayectoria y comunidad científica",
+  "career": "Trayectoria y comunidad científica",
+  "careeritems": [
+    "Doctor por la UMH desde 2009, con una investigación en modelos geoestadísticos para índices bioclimáticos. Diplomado en Estadística por la Universidad de Alicante y licenciado en Ciencias y Técnicas Estadísticas por la UMH.",
+    "Presidente del Representative Council de la International Biometric Society y miembro ex officio de su Executive Board, 2026–2027.",
+    "Miembro de la Junta Ejecutiva de la Sociedad Española de Bioestadística.",
+    "Vicerrector adjunto de Investigación en la UMH, 2011–2023. Actividad editorial y de revisión científica, incluida la edición estadística para Public Health Nutrition."
+  ],
+  "researchlabel": "02 / INVESTIGACIÓN SELECCIONADA",
+  "researchtitle": "El método importa. La aplicación, también.",
+  "researchintro": "Aprendizaje automático, incertidumbre y modelos que conectan disciplinas. Una selección de trabajos con acceso a la publicación original.",
+  "allpapers": "Ver todas las publicaciones seleccionadas",
+  "filters": [
+    "Todos",
+    "IA y salud",
+    "Medio ambiente",
+    "Eficiencia"
+  ],
+  "filterlabel": "Filtrar publicaciones por ámbito",
+  "readpaper": "Leer artículo",
+  "results": "publicaciones mostradas",
+  "paperdescs": [
+    "IA generativa aplicada a recomendaciones clínicas: prueba de concepto con un corpus de evidencia cerrado.",
+    "Adaptación de Random Forest para estimar tecnologías de producción y medir la eficiencia en educación.",
+    "Aprendizaje automático para modelizar la distribución de especies a escala global.",
+    "Una calculadora basada en aprendizaje automático para predecir lesiones musculoesqueléticas en cirujanos.",
+    "Revisión del uso de redes bayesianas para el diagnóstico y el pronóstico de enfermedades.",
+    "Software abierto en R para aplicar árboles de análisis de eficiencia."
+  ],
+  "projectslabel": "03 / PROYECTOS Y TRANSFERENCIA",
+  "projectstitle": "De los datos a las decisiones.",
+  "projectsintro": "Experiencia en problemas concretos y sectores distintos. Estos casos ilustran líneas de trabajo, no agotan todas las colaboraciones.",
+  "projectnames": [
+    "VioGén-2",
+    "Salud y bienestar",
+    "Medio marino",
+    "Agricultura y economía circular",
+    "Golf y territorio",
+    "Industria alimentaria"
+  ],
+  "projecttags": [
+    "IA · PROTECCIÓN DE LAS PERSONAS",
+    "INVESTIGACIÓN APLICADA",
+    "RIESGO Y ADAPTACIÓN",
+    "RECURSOS Y PROCESOS",
+    "GESTIÓN SOSTENIBLE",
+    "CALIDAD Y DESARROLLO"
+  ],
+  "projecttexts": [
+    "Desarrollo y validación de modelos predictivos para la valoración del riesgo de reincidencia, dentro del proyecto ALTEA. Estadística e IA para apoyar los instrumentos de valoración policial del riesgo.",
+    "Entre los casos de éxito: predicción del riesgo musculoesquelético en cirujanos y análisis de la aceptación de la teleconsulta. Una muestra de una trayectoria más amplia en estudios clínicos, tratamientos y herramientas predictivas.",
+    "Riesgo térmico en acuicultura, distribución de especies e integración de datos ambientales. Mapas y modelos para orientar la gestión y la adaptación.",
+    "Compost Calculator, caracterización de lodos, valorización de residuos, riego y zonificación de suelos. Análisis para evaluar procesos y opciones de uso de los recursos.",
+    "Gestión del césped, fertilización y seguimiento mediante teledetección. Evidencia para orientar el mantenimiento y el uso de recursos.",
+    "Diseño experimental, formulación, conservación y preferencias del consumidor. Comparación de productos, procesos e ingredientes de coproductos."
+  ],
+  "reference": "Referencia del trabajo",
+  "partner": "Ciencia compartida, soluciones que suman.",
+  "partnertext": "Colaboro con Juan Aparicio y otros equipos de investigación en el desarrollo de métodos y en proyectos de transferencia. El conocimiento del sector y la colaboración entre disciplinas forman parte de cada solución.",
+  "partnerlink": "Conoce el trabajo de Juan Aparicio",
+  "humanlabel": "04 / IA HUMANISTA",
+  "humantitle": "La tecnología ayuda. Las personas deciden.",
+  "humanintro": "Una IA útil debe cuidar tanto la calidad del modelo como a las personas a las que afecta.",
+  "humantext": "Mi experiencia en valoración del riesgo, investigación sanitaria y análisis de encuestas ciudadanas a gran escala conecta los métodos con necesidades sociales. Entiendo la IA como una herramienta para apoyar decisiones informadas, con supervisión humana y atención a sus límites.",
+  "principles": [
+    [
+      "Comprender",
+      "Explicar qué responde un modelo, con qué datos y bajo qué supuestos."
+    ],
+    [
+      "Reconocer límites",
+      "Hacer visible la incertidumbre y evaluar dónde funciona una herramienta."
+    ],
+    [
+      "Cuidar a las personas",
+      "Considerar los sesgos y las consecuencias del uso de los resultados."
+    ],
+    [
+      "Mantener el criterio",
+      "Apoyar el juicio profesional y la responsabilidad de quienes deciden."
+    ]
+  ],
+  "ethicstitle": "Ética e integridad en la práctica científica",
+  "ethicstext": "Miembro con perfil bioestadístico del Comité de Ética de Experimentación Animal y del Comité de Ética e Integridad en la Investigación de la UMH, desde septiembre de 2026.",
+  "traininglabel": "05 / FORMACIÓN",
+  "trainingtitle": "Comprender la IA. Trabajar mejor con ella.",
+  "trainingintro": "Formación especializada para que los equipos comprendan las herramientas, interpreten los resultados y las apliquen con criterio en su trabajo.",
+  "courses": [
+    [
+      "Administraciones públicas",
+      "IA generativa, análisis de documentos, seguridad y aplicaciones prácticas para una administración más eficiente."
+    ],
+    [
+      "Empresas y profesionales",
+      "Ciencia de datos y aprendizaje automático para analizar información y evaluar modelos predictivos."
+    ],
+    [
+      "Investigación y salud",
+      "Diseño experimental, metodología y análisis estadístico, incluida la formación en experimentación animal."
+    ],
+    [
+      "Universidad y docencia",
+      "Innovación docente, competencias digitales y participación en formación de postgrado y salud digital."
+    ]
+  ],
+  "teachingnote": "Docencia universitaria desde 2005, formación especializada y reconocimientos Talento Docente. Evaluaciones excelentes en DOCENTIA-UMH.",
+  "trainingcta": "Plantea una formación para tu equipo",
+  "personallabel": "06 / FUERA DE LA UNIVERSIDAD",
+  "personaltitle": "Bicicleta, dolçaina y raíces.",
+  "personalintro": "Soy de Dénia. La bicicleta y la dolçaina son dos maneras de desconectar, disfrutar y compartir tiempo con otras personas.",
+  "biketitle": "Otra forma de recorrer el camino.",
+  "biketext": "Tiempo al aire libre, rutas y bicicleta. Un espacio para cambiar de ritmo y disfrutar del entorno.",
+  "bikealt": "Salida en bicicleta por un sendero",
+  "musictitle": "El sonido de casa.",
+  "musictext": "Tocar la dolçaina me conecta con la música y la cultura valencianas. Una afición que tiene mucho de encuentro, tradición y aprendizaje compartido.",
+  "rowingnote": "El remo también forma parte de mi trayectoria, aunque ahora lo tengo en pausa.",
+  "musiclabel": "DOLÇAINA · MÚSICA Y TRADICIÓN",
+  "downloadtitle": "Mi experiencia, de un vistazo.",
+  "downloadtext": "Ámbitos de aplicación, formación y liderazgo científico en una infografía descargable.",
+  "downloadcta": "Descargar PDF · Español · 1,2 MB",
+  "contactlabel": "07 / CONTACTO",
+  "contacttitle": "Tu próximo reto. Hablemos.",
+  "contacttext": "Cuéntame qué necesitas decidir, qué datos tienes o qué formación necesita tu equipo. Empecemos por una buena pregunta.",
+  "contactoptions": [
+    "Proponer una colaboración",
+    "Consultar formación",
+    "Contactar por investigación"
+  ],
+  "footer": "Ciencia rigurosa. Cercanía para colaborar.",
+  "location": "Dénia / Elche, España",
+  "umhprofile": "Perfil UMH",
+  "back": "Volver al inicio",
+  "pubtitle": "Investigación y publicaciones",
+  "pubintro": "Los títulos y los datos bibliográficos se conservan en su idioma original. Citas consultadas el 11 de septiembre de 2026; no se suman registros duplicados.",
+  "pubsections": [
+    "Inteligencia artificial y apoyo a decisiones",
+    "Estadística espacial y espacio-temporal",
+    "Análisis de eficiencia y productividad",
+    "Trabajos destacados e interdisciplinares",
+    "Otras publicaciones en inteligencia artificial"
+  ],
+  "pubtag": "citas",
+  "brandtag": "IA · CIENCIA · PERSONAS",
+  "researchphotoalt": "Presentación científica de Xavier Barber"
+}

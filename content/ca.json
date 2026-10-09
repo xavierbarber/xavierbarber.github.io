@@ -1,0 +1,193 @@
+{
+  "lang": "ca-valencia",
+  "label": "Valencià",
+  "title": "Intel·ligència artificial, ciència de dades i persones",
+  "nav": [
+    "Investigació",
+    "Projectes",
+    "IA humanista",
+    "Formació",
+    "El meu costat personal"
+  ],
+  "talk": "Parlem",
+  "menu": "Menú",
+  "skip": "Ves al contingut",
+  "language": "Tria l'idioma",
+  "eyebrow": "Xavier Barber · Ciència de dades amb criteri",
+  "hero": [
+    "Dades amb rigor.",
+    "IA amb propòsit."
+  ],
+  "intro": "Connecte investigació, intel·ligència artificial i coneixement del problema per a ajudar empreses, administracions i equips científics a decidir millor.",
+  "cta": "Parlem del teu projecte",
+  "researchcta": "Explora la meua investigació",
+  "role": "Catedràtic UMH · Subdirector d'i-MInD · Director de la Unitat Mixta UMH–FISABIO",
+  "photoalt": "Xavier Barber intervenint en un acte cultural",
+  "photocaption": "Investigació, transferència i una manera pròxima de compartir coneixement.",
+  "credentials": [
+    [
+      "i-MInD · UMH",
+      "Matemàtiques, ciència de dades i IA"
+    ],
+    [
+      "UMH–FISABIO",
+      "Mètodes estadístics en ciències de la salut"
+    ],
+    [
+      "International Biometric Society",
+      "Chair del Representative Council · 2026–2027"
+    ]
+  ],
+  "aboutlabel": "01 / PERFIL",
+  "abouttitle": "Una base científica. Moltes maneres d'aportar.",
+  "aboutlead": "La bona solució comença per entendre bé la pregunta.",
+  "aboutparagraphs": [
+    "Soc catedràtic d'Estadística i Investigació Operativa a la Universitat Miguel Hernández d'Elx, subdirector d'i-MInD i director de la Unitat Mixta d'Investigació UMH–FISABIO en Mètodes Estadístics en Ciències de la Salut.",
+    "El meu treball combina aprenentatge automàtic, models bayesians, anàlisi espacial i avaluació de l'eficiència. Col·labore amb especialistes en salut, medi ambient, indústria i economia per a transformar les dades en evidència i ferramentes útils.",
+    "La transferència forma part d'eixa manera d'investigar: desenvolupar mètodes, validar-los en el seu context i treballar amb les persones que els utilitzaran."
+  ],
+  "profilecta": "Trajectòria i comunitat científica",
+  "career": "Trajectòria i comunitat científica",
+  "careeritems": [
+    "Doctor per la UMH des de 2009, amb una investigació en models geoestadístics per a índexs bioclimàtics. Diplomat en Estadística per la Universitat d'Alacant i llicenciat en Ciències i Tècniques Estadístiques per la UMH.",
+    "President del Representative Council de la International Biometric Society i membre ex officio del seu Executive Board, 2026–2027.",
+    "Membre de la Junta Executiva de la Societat Espanyola de Bioestadística.",
+    "Vicerector adjunt d'Investigació a la UMH, 2011–2023. Activitat editorial i de revisió científica, inclosa l'edició estadística per a Public Health Nutrition."
+  ],
+  "researchlabel": "02 / INVESTIGACIÓ SELECCIONADA",
+  "researchtitle": "El mètode importa. L'aplicació, també.",
+  "researchintro": "Aprenentatge automàtic, incertesa i models que connecten disciplines. Una selecció de treballs amb accés a la publicació original.",
+  "allpapers": "Consulta totes les publicacions seleccionades",
+  "filters": [
+    "Tots",
+    "IA i salut",
+    "Medi ambient",
+    "Eficiència"
+  ],
+  "filterlabel": "Filtra publicacions per àmbit",
+  "readpaper": "Llig l'article",
+  "results": "publicacions mostrades",
+  "paperdescs": [
+    "IA generativa aplicada a recomanacions clíniques: prova de concepte amb un corpus d’evidència tancat.",
+    "Adaptació de Random Forest per a estimar tecnologies de producció i mesurar l’eficiència en educació.",
+    "Aprenentatge automàtic per a modelitzar la distribució d’espècies a escala global.",
+    "Una calculadora basada en aprenentatge automàtic per a predir lesions musculoesquelètiques en cirurgians.",
+    "Revisió de l’ús de xarxes bayesianes per al diagnòstic i el pronòstic de malalties.",
+    "Programari obert en R per a aplicar arbres d’anàlisi d’eficiència."
+  ],
+  "projectslabel": "03 / PROJECTES I TRANSFERÈNCIA",
+  "projectstitle": "De les dades a les decisions.",
+  "projectsintro": "Experiència en problemes concrets i sectors diferents. Estos casos il·lustren línies de treball, no esgoten totes les col·laboracions.",
+  "projectnames": [
+    "VioGén-2",
+    "Salut i benestar",
+    "Medi marí",
+    "Agricultura i economia circular",
+    "Golf i territori",
+    "Indústria alimentària"
+  ],
+  "projecttags": [
+    "IA · PROTECCIÓ DE LES PERSONES",
+    "INVESTIGACIÓ APLICADA",
+    "RISC I ADAPTACIÓ",
+    "RECURSOS I PROCESSOS",
+    "GESTIÓ SOSTENIBLE",
+    "QUALITAT I DESENVOLUPAMENT"
+  ],
+  "projecttexts": [
+    "Desenvolupament i validació de models predictius per a la valoració del risc de reincidència, dins del projecte ALTEA. Estadística i IA per a donar suport als instruments de valoració policial del risc.",
+    "Entre els casos d'èxit: predicció del risc musculoesquelètic en cirurgians i anàlisi de l'acceptació de la teleconsulta. Una mostra d'una trajectòria més àmplia en estudis clínics, tractaments i ferramentes predictives.",
+    "Risc tèrmic en aqüicultura, distribució d'espècies i integració de dades ambientals. Mapes i models per a orientar la gestió i l'adaptació.",
+    "Compost Calculator, caracterització de fangs, valorització de residus, reg i zonificació de sòls. Anàlisi per a avaluar processos i opcions d'ús dels recursos.",
+    "Gestió de la gespa, fertilització i seguiment mitjançant teledetecció. Evidència per a orientar el manteniment i l'ús de recursos.",
+    "Disseny experimental, formulació, conservació i preferències del consumidor. Comparació de productes, processos i ingredients de coproductes."
+  ],
+  "reference": "Referència del treball",
+  "partner": "Ciència compartida, solucions que sumen.",
+  "partnertext": "Col·labore amb Juan Aparicio i altres equips d'investigació en el desenvolupament de mètodes i en projectes de transferència. El coneixement del sector i la col·laboració entre disciplines formen part de cada solució.",
+  "partnerlink": "Coneix el treball de Juan Aparicio",
+  "humanlabel": "04 / IA HUMANISTA",
+  "humantitle": "La tecnologia ajuda. Les persones decidixen.",
+  "humanintro": "Una IA útil ha de cuidar tant la qualitat del model com les persones a les quals afecta.",
+  "humantext": "La meua experiència en valoració del risc, investigació sanitària i anàlisi d'enquestes ciutadanes a gran escala connecta els mètodes amb necessitats socials. Entenc la IA com una ferramenta per a donar suport a decisions informades, amb supervisió humana i atenció als seus límits.",
+  "principles": [
+    [
+      "Comprendre",
+      "Explicar què respon un model, amb quines dades i sota quins supòsits."
+    ],
+    [
+      "Reconéixer límits",
+      "Fer visible la incertesa i avaluar on funciona una ferramenta."
+    ],
+    [
+      "Cuidar les persones",
+      "Considerar els biaixos i les conseqüències de l'ús dels resultats."
+    ],
+    [
+      "Mantindre el criteri",
+      "Donar suport al judici professional i a la responsabilitat de qui decidix."
+    ]
+  ],
+  "ethicstitle": "Ètica i integritat en la pràctica científica",
+  "ethicstext": "Membre amb perfil bioestadístic del Comité d'Ètica d'Experimentació Animal i del Comité d'Ètica i Integritat en la Investigació de la UMH, des de setembre de 2026.",
+  "traininglabel": "05 / FORMACIÓ",
+  "trainingtitle": "Comprendre la IA. Treballar millor amb ella.",
+  "trainingintro": "Formació especialitzada perquè els equips comprenguen les ferramentes, interpreten els resultats i les apliquen amb criteri en el seu treball.",
+  "courses": [
+    [
+      "Administracions públiques",
+      "IA generativa, anàlisi de documents, seguretat i aplicacions pràctiques per a una administració més eficient."
+    ],
+    [
+      "Empreses i professionals",
+      "Ciència de dades i aprenentatge automàtic per a analitzar informació i avaluar models predictius."
+    ],
+    [
+      "Investigació i salut",
+      "Disseny experimental, metodologia i anàlisi estadística, inclosa la formació en experimentació animal."
+    ],
+    [
+      "Universitat i docència",
+      "Innovació docent, competències digitals i participació en formació de postgrau i salut digital."
+    ]
+  ],
+  "teachingnote": "Docència universitària des de 2005, formació especialitzada i reconeixements Talento Docente. Avaluacions excel·lents en DOCENTIA-UMH.",
+  "trainingcta": "Planteja una formació per al teu equip",
+  "personallabel": "06 / FORA DE LA UNIVERSITAT",
+  "personaltitle": "Bicicleta, dolçaina i arrels.",
+  "personalintro": "Soc de Dénia. La bicicleta i la dolçaina són dos maneres de desconnectar, disfrutar i compartir temps amb altres persones.",
+  "biketitle": "Una altra manera de recórrer el camí.",
+  "biketext": "Temps a l'aire lliure, rutes i bicicleta. Un espai per a canviar de ritme i disfrutar de l'entorn.",
+  "bikealt": "Eixida en bicicleta per una senda",
+  "musictitle": "El so de casa.",
+  "musictext": "Tocar la dolçaina em connecta amb la música i la cultura valencianes. Una afició que té molt de trobada, tradició i aprenentatge compartit.",
+  "rowingnote": "El rem també forma part de la meua trajectòria, encara que ara el tinc en pausa.",
+  "musiclabel": "DOLÇAINA · MÚSICA I TRADICIÓ",
+  "downloadtitle": "La meua experiència, d'una ullada.",
+  "downloadtext": "Àmbits d'aplicació, formació i lideratge científic en una infografia descarregable.",
+  "downloadcta": "Descarrega el PDF · Castellà · 1,2 MB",
+  "contactlabel": "07 / CONTACTE",
+  "contacttitle": "El teu pròxim repte. Parlem.",
+  "contacttext": "Conta'm què necessites decidir, quines dades tens o quina formació necessita el teu equip. Comencem per una bona pregunta.",
+  "contactoptions": [
+    "Proposa una col·laboració",
+    "Consulta sobre formació",
+    "Contacta per investigació"
+  ],
+  "footer": "Ciència rigorosa. Proximitat per a col·laborar.",
+  "location": "Dénia / Elx, Espanya",
+  "umhprofile": "Perfil UMH",
+  "back": "Torna a l'inici",
+  "pubtitle": "Investigació i publicacions",
+  "pubintro": "Els títols i les dades bibliogràfiques es conserven en la llengua original. Citacions consultades l'11 de setembre de 2026; no se sumen registres duplicats.",
+  "pubsections": [
+    "Intel·ligència artificial i suport a decisions",
+    "Estadística espacial i espaciotemporal",
+    "Anàlisi d'eficiència i productivitat",
+    "Treballs destacats i interdisciplinaris",
+    "Altres publicacions en intel·ligència artificial"
+  ],
+  "pubtag": "citacions",
+  "brandtag": "IA · CIÈNCIA · PERSONES",
+  "researchphotoalt": "Presentació científica de Xavier Barber"
+}

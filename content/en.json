@@ -1,0 +1,193 @@
+{
+  "lang": "en-GB",
+  "label": "English",
+  "title": "Artificial intelligence, data science and people",
+  "nav": [
+    "Research",
+    "Projects",
+    "Human-centred AI",
+    "Training",
+    "Beyond work"
+  ],
+  "talk": "Let's talk",
+  "menu": "Menu",
+  "skip": "Skip to content",
+  "language": "Choose language",
+  "eyebrow": "Xavier Barber · Data science with judgement",
+  "hero": [
+    "Rigorous data.",
+    "Purposeful AI."
+  ],
+  "intro": "I connect research, artificial intelligence and domain knowledge to help businesses, public institutions and research teams make better decisions.",
+  "cta": "Let's discuss your project",
+  "researchcta": "Explore my research",
+  "role": "Full Professor at UMH · Deputy Director of i-MInD · Director of the UMH–FISABIO Joint Research Unit",
+  "photoalt": "Xavier Barber speaking at a cultural event",
+  "photocaption": "Research, knowledge transfer and an approachable way of sharing ideas.",
+  "credentials": [
+    [
+      "i-MInD · UMH",
+      "Mathematics, data science and AI"
+    ],
+    [
+      "UMH–FISABIO",
+      "Statistical methods in health sciences"
+    ],
+    [
+      "International Biometric Society",
+      "Chair of the Representative Council · 2026–2027"
+    ]
+  ],
+  "aboutlabel": "01 / PROFILE",
+  "abouttitle": "A scientific foundation. Many ways to contribute.",
+  "aboutlead": "A useful solution starts with understanding the question.",
+  "aboutparagraphs": [
+    "I am a Full Professor of Statistics and Operations Research at Universidad Miguel Hernández de Elche, Deputy Director of i-MInD and Director of the UMH–FISABIO Joint Research Unit on Statistical Methods in Health Sciences.",
+    "My work combines machine learning, Bayesian modelling, spatial analysis and efficiency assessment. I collaborate with specialists in health, the environment, industry and economics to turn data into evidence and useful tools.",
+    "Knowledge transfer is part of this approach to research: developing methods, validating them in context and working with the people who will use them."
+  ],
+  "profilecta": "Career and scientific community",
+  "career": "Career and scientific community",
+  "careeritems": [
+    "PhD from UMH in 2009, researching geostatistical models for bioclimatic indices. Statistics degrees from Universidad de Alicante and UMH.",
+    "Chair of the International Biometric Society Representative Council and ex officio member of its Executive Board, 2026–2027.",
+    "Member of the Executive Committee of the Spanish Society of Biostatistics.",
+    "Deputy Vice-Rector for Research at UMH, 2011–2023. Editorial and peer-review activity, including statistical editing for Public Health Nutrition."
+  ],
+  "researchlabel": "02 / SELECTED RESEARCH",
+  "researchtitle": "The method matters. So does the application.",
+  "researchintro": "Machine learning, uncertainty and models that connect disciplines. Selected work with links to the original publications.",
+  "allpapers": "Browse all selected publications",
+  "filters": [
+    "All",
+    "AI and health",
+    "Environment",
+    "Efficiency"
+  ],
+  "filterlabel": "Filter publications by research area",
+  "readpaper": "Read article",
+  "results": "publications shown",
+  "paperdescs": [
+    "Generative AI for clinical recommendations: a proof-of-concept study using a closed evidence corpus.",
+    "Adapting Random Forest to estimate production technologies and measure efficiency in education.",
+    "Machine learning to model species distributions on a global scale.",
+    "A machine-learning calculator to predict musculoskeletal injuries in surgeons.",
+    "A review of Bayesian networks for disease diagnosis and prognosis.",
+    "Open-source R software for fitting Efficiency Analysis Trees."
+  ],
+  "projectslabel": "03 / PROJECTS AND KNOWLEDGE TRANSFER",
+  "projectstitle": "From data to decisions.",
+  "projectsintro": "Experience with specific problems across different sectors. These examples illustrate areas of work, rather than an exhaustive list of collaborations.",
+  "projectnames": [
+    "VioGén-2",
+    "Health and wellbeing",
+    "Marine environments",
+    "Agriculture and circular economy",
+    "Golf and land management",
+    "Food industry"
+  ],
+  "projecttags": [
+    "AI · PROTECTING PEOPLE",
+    "APPLIED RESEARCH",
+    "RISK AND ADAPTATION",
+    "RESOURCES AND PROCESSES",
+    "SUSTAINABLE MANAGEMENT",
+    "QUALITY AND DEVELOPMENT"
+  ],
+  "projecttexts": [
+    "Development and validation of predictive models for repeat-offence risk assessment within the ALTEA project. Statistics and AI to support police risk assessment tools.",
+    "Selected success stories include predicting musculoskeletal risk in surgeons and analysing acceptance of remote consultations. Examples from a wider track record in clinical studies, treatment evaluation and predictive tools.",
+    "Thermal risk in aquaculture, species distributions and environmental data integration. Maps and models to inform management and adaptation.",
+    "Compost Calculator, sludge characterisation, waste valorisation, irrigation and soil zoning. Analysis to evaluate processes and resource-use options.",
+    "Turf management, fertilisation and remote sensing. Evidence to inform maintenance and resource use.",
+    "Experimental design, formulation, preservation and consumer preferences. Comparing products, processes and coproduct ingredients."
+  ],
+  "reference": "Related work",
+  "partner": "Shared science. Collaborative solutions.",
+  "partnertext": "I collaborate with Juan Aparicio and other research teams on methodological development and knowledge transfer projects. Sector knowledge and collaboration across disciplines are part of every solution.",
+  "partnerlink": "Explore Juan Aparicio's work",
+  "humanlabel": "04 / HUMAN-CENTRED AI",
+  "humantitle": "Technology supports. People decide.",
+  "humanintro": "Useful AI must pay attention both to model quality and to the people it affects.",
+  "humantext": "My experience in risk assessment, health research and large-scale citizen surveys connects methods with social needs. I see AI as a tool to support informed decisions, with human oversight and attention to its limitations.",
+  "principles": [
+    [
+      "Understand",
+      "Explain what a model answers, which data it uses and what it assumes."
+    ],
+    [
+      "Acknowledge limits",
+      "Make uncertainty visible and assess where a tool works."
+    ],
+    [
+      "Care for people",
+      "Consider bias and the consequences of using the results."
+    ],
+    [
+      "Retain judgement",
+      "Support professional judgement and the responsibility of decision-makers."
+    ]
+  ],
+  "ethicstitle": "Ethics and integrity in scientific practice",
+  "ethicstext": "Biostatistical member of the UMH Animal Experimentation Ethics Committee and Research Ethics and Integrity Committee since September 2026.",
+  "traininglabel": "05 / TRAINING",
+  "trainingtitle": "Understand AI. Put it to better use.",
+  "trainingintro": "Specialised training to help teams understand tools, interpret results and apply them with judgement in their work.",
+  "courses": [
+    [
+      "Public institutions",
+      "Generative AI, document analysis, security and practical applications for more efficient public administration."
+    ],
+    [
+      "Businesses and professionals",
+      "Data science and machine learning to analyse information and evaluate predictive models."
+    ],
+    [
+      "Research and health",
+      "Experimental design, methodology and statistical analysis, including training in animal experimentation."
+    ],
+    [
+      "Universities and teaching",
+      "Teaching innovation, digital skills and contributions to postgraduate and digital health training."
+    ]
+  ],
+  "teachingnote": "University teaching since 2005, specialised training and Teaching Talent recognition. Excellent evaluations in DOCENTIA-UMH.",
+  "trainingcta": "Discuss training for your team",
+  "personallabel": "06 / BEYOND THE UNIVERSITY",
+  "personaltitle": "Cycling, dolçaina and roots.",
+  "personalintro": "I am from Dénia. Cycling and playing the dolçaina are two ways to switch off, enjoy myself and spend time with others.",
+  "biketitle": "Another way to explore the road ahead.",
+  "biketext": "Time outdoors, trails and cycling. A chance to change pace and enjoy the surroundings.",
+  "bikealt": "Cycling along a trail",
+  "musictitle": "The sound of home.",
+  "musictext": "Playing the dolçaina, a traditional Valencian wind instrument, connects me with Valencian music and culture. An interest rooted in coming together, tradition and shared learning.",
+  "rowingnote": "Rowing is also part of my story, although I am currently taking a break from it.",
+  "musiclabel": "DOLÇAINA · MUSIC AND TRADITION",
+  "downloadtitle": "My experience, at a glance.",
+  "downloadtext": "Applications, training and scientific leadership in a downloadable infographic.",
+  "downloadcta": "Download PDF · Spanish · 1.2 MB",
+  "contactlabel": "07 / CONTACT",
+  "contacttitle": "Your next challenge. Let's talk.",
+  "contacttext": "Tell me what you need to decide, what data you have or what training your team needs. Let's start with a good question.",
+  "contactoptions": [
+    "Propose a collaboration",
+    "Ask about training",
+    "Discuss research"
+  ],
+  "footer": "Rigorous science. An approachable collaborator.",
+  "location": "Dénia / Elche, Spain",
+  "umhprofile": "UMH profile",
+  "back": "Back to home",
+  "pubtitle": "Research and publications",
+  "pubintro": "Titles and bibliographic records are retained in their original language. Citation counts were consulted on 11 September 2026; duplicate records are not added together.",
+  "pubsections": [
+    "Artificial Intelligence and Decision Making",
+    "Spatial and Spatio-temporal Statistics",
+    "Efficiency and Productivity Analysis",
+    "Selected Highly Cited and Interdisciplinary Work",
+    "Further Artificial Intelligence Publications"
+  ],
+  "pubtag": "citations",
+  "brandtag": "AI · SCIENCE · PEOPLE",
+  "researchphotoalt": "Scientific presentation by Xavier Barber"
+}
