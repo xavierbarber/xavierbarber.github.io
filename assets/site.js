@@ -16,3 +16,17 @@ filters.forEach(button=>button.addEventListener('click',()=>{
 }));
 // Keep the corresponding section when changing language, without forcing a language on first visit.
 document.querySelectorAll('.languages a').forEach(a=>a.addEventListener('click',()=>{if(location.hash)a.href=a.href.split('#')[0]+location.hash}));
+// Progressive enhancement: an unchanged portrait when JS is absent or motion is reduced.
+const hero=document.querySelector('.hero[data-hud]');
+const hudToggle=document.querySelector('.hud-toggle');
+if(hero&&hudToggle){
+ const reduced=window.matchMedia('(prefers-reduced-motion: reduce)');
+ const setHud=state=>{
+  hero.dataset.hud=state;
+  hudToggle.querySelector('.hud-toggle-label').textContent=state==='running'?hudToggle.dataset.pause:state==='paused'?hudToggle.dataset.resume:hudToggle.dataset.enable;
+  hudToggle.querySelector('.hud-toggle-icon').textContent=state==='running'?'Ⅱ':'▷';
+ };
+ hudToggle.hidden=false;setHud(reduced.matches?'off':'running');
+ hudToggle.addEventListener('click',()=>setHud(hero.dataset.hud==='running'?'paused':'running'));
+ reduced.addEventListener('change',e=>{if(e.matches)setHud('off')});
+}

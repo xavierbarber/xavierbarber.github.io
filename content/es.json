@@ -189,5 +189,11 @@
   ],
   "pubtag": "citas",
   "brandtag": "IA · CIENCIA · PERSONAS",
-  "researchphotoalt": "Presentación científica de Xavier Barber"
+  "researchphotoalt": "Presentación científica de Xavier Barber",
+  "hudlabels": [
+    "Pausar efecto",
+    "Reanudar efecto",
+    "Activar efecto",
+    "Efecto visual ilustrativo"
+  ]
 }

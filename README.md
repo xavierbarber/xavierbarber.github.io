@@ -38,3 +38,7 @@ The cycling frame comes from the user's video. The withdrawn photograph of the
 dolçaina group must not be republished. Music is represented by a CSS motif.
 Older Rmd files other than cva.Rmd, profile.css, site-template.html and _site.yml
 are retained as legacy sources and are not used by this build.
+
+The homepage portrait includes a decorative SVG/CSS holographic cycle (18 seconds),
+with translated pause/resume controls. It starts disabled for reduced-motion
+preferences and without JavaScript. No GIF or video is loaded for this effect.

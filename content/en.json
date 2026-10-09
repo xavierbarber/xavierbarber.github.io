@@ -189,5 +189,11 @@
   ],
   "pubtag": "citations",
   "brandtag": "AI · SCIENCE · PEOPLE",
-  "researchphotoalt": "Scientific presentation by Xavier Barber"
+  "researchphotoalt": "Scientific presentation by Xavier Barber",
+  "hudlabels": [
+    "Pause effect",
+    "Resume effect",
+    "Enable effect",
+    "Illustrative visual effect"
+  ]
 }
