@@ -195,5 +195,14 @@
     "Reprén l’efecte",
     "Activa l’efecte",
     "Efecte visual il·lustratiu"
-  ]
+  ],
+  "papertitles": [
+    "IA generativa i evidència clínica",
+    "Random Forest per a avaluar l’eficiència",
+    "Aprenentatge automàtic i biodiversitat",
+    "Predicció de lesions en cirurgians",
+    "Xarxes bayesianes en medicina",
+    "Programari obert per a mesurar l’eficiència"
+  ],
+  "citationlabel": "Referència científica"
 }

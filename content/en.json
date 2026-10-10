@@ -195,5 +195,14 @@
     "Resume effect",
     "Enable effect",
     "Illustrative visual effect"
-  ]
+  ],
+  "papertitles": [
+    "Generative AI and clinical evidence",
+    "Random Forest for efficiency assessment",
+    "Machine learning and biodiversity",
+    "Predicting injuries in surgeons",
+    "Bayesian networks in medicine",
+    "Open-source software for efficiency analysis"
+  ],
+  "citationlabel": "Publication details"
 }

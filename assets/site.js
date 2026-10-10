@@ -29,4 +29,21 @@ if(hero&&hudToggle){
  hudToggle.hidden=false;setHud(reduced.matches?'off':'running');
  hudToggle.addEventListener('click',()=>setHud(hero.dataset.hud==='running'?'paused':'running'));
  reduced.addEventListener('change',e=>{if(e.matches)setHud('off')});
+ // Stop the decorative animation when the portrait is outside the viewport.
+ if('IntersectionObserver' in window){
+  new IntersectionObserver(([entry])=>hero.classList.toggle('hud-out-of-view',!entry.isIntersecting)).observe(hero);
+ }
+}
+// Quiet orientation cue for the current homepage section.
+if(nav&&document.querySelector('#inicio')&&'IntersectionObserver' in window){
+ const sectionLinks=[...nav.querySelectorAll('a[href^="#"]')];
+ const tracked=sectionLinks.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);
+ const visible=new Set();
+ // A single observer watches all navigation destinations, including contact.
+ const observer=new IntersectionObserver(entries=>{
+  entries.forEach(e=>e.isIntersecting?visible.add(e.target):visible.delete(e.target));
+  const current=tracked.find(section=>visible.has(section));
+  sectionLinks.forEach(a=>{if(current&&a.hash==='#'+current.id)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current')});
+ },{rootMargin:'-15% 0px -55% 0px'});
+ tracked.forEach(section=>observer.observe(section));
 }

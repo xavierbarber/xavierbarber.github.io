@@ -195,5 +195,14 @@
     "Reanudar efecto",
     "Activar efecto",
     "Efecto visual ilustrativo"
-  ]
+  ],
+  "papertitles": [
+    "IA generativa y evidencia clínica",
+    "Random Forest para evaluar la eficiencia",
+    "Aprendizaje automático y biodiversidad",
+    "Predicción de lesiones en cirujanos",
+    "Redes bayesianas en medicina",
+    "Software abierto para medir la eficiencia"
+  ],
+  "citationlabel": "Referencia científica"
 }
