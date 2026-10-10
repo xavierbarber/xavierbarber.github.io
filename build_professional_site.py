@@ -64,7 +64,7 @@ def training(l):
 
 def personal(l):
  d=DATA[l];p=root(l)
- photos=[('photos/cycling-video.jpg',1920,1080),('photos/leisure/dansa.webp',935,1400),('photos/leisure/rowing.webp',1050,1400),('photos/leisure/moments.webp',1050,1400),('photos/leisure/dolcaina.webp',1050,1400),('photos/leisure/sea.webp',1200,900)]
+ photos=[('photos/cycling-video.jpg',1920,1080),('photos/leisure/dansa.webp',935,1400),('photos/leisure/rowing.webp',1050,1400),('photos/leisure/moments-together.webp',1000,750),('photos/leisure/dolcaina.webp',1050,1400),('photos/leisure/sea.webp',1200,900)]
  gallery=''
  for i,(src,w,h) in enumerate(photos):
   caption=d['gallerytitles'][i];credit=d['photocredit'] if i==1 else ''
