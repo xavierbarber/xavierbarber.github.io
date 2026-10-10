@@ -47,3 +47,18 @@ if(nav&&document.querySelector('#inicio')&&'IntersectionObserver' in window){
  },{rootMargin:'-15% 0px -55% 0px'});
  tracked.forEach(section=>observer.observe(section));
 }
+// Native modal keeps keyboard focus inside; links remain usable without JavaScript.
+const photoDialog=document.querySelector('.photo-dialog');
+if(photoDialog&&typeof photoDialog.showModal==='function'){
+ let photoOpener=null;
+ document.querySelectorAll('.photo-open').forEach(link=>link.addEventListener('click',event=>{
+  if(event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;
+  event.preventDefault();photoOpener=link;
+  const image=photoDialog.querySelector('img');image.src=link.href;image.alt=link.querySelector('img').alt;
+  photoDialog.querySelector('.photo-caption').textContent=link.dataset.caption+(link.dataset.credit?'\n'+link.dataset.credit:'');
+  photoDialog.showModal();document.body.classList.add('photo-viewing');
+ }));
+ photoDialog.querySelector('.photo-close').addEventListener('click',()=>photoDialog.close());
+ photoDialog.addEventListener('click',event=>{if(event.target===photoDialog){const r=photoDialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)photoDialog.close()}});
+ photoDialog.addEventListener('close',()=>{document.body.classList.remove('photo-viewing');photoOpener?.focus()});
+}

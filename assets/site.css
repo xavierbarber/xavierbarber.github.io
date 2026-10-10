@@ -81,3 +81,23 @@ h1,h2,h3{text-wrap:balance}p{text-wrap:pretty}
 }
 .hero.hud-out-of-view .hud-stage,.hero.hud-out-of-view .hud-orbit,.hero.hud-out-of-view .hud-scan{animation-play-state:paused!important}
 @media print{.contact{background:white}.contact a{color:black!important}.citation{display:none}}
+
+/* A still, expandable personal photo album; images retain their own framing. */
+.leisure-gallery{columns:3;column-gap:24px}
+.leisure-photo{break-inside:avoid;display:inline-block;width:100%;margin:0 0 26px}
+.photo-open{display:block;position:relative;background:#202829;border-radius:6px;overflow:hidden}
+.photo-open img{width:100%;height:auto;transition:filter .2s}
+.photo-open:hover img{filter:brightness(1.06)}
+.photo-zoom{position:absolute;right:12px;bottom:12px;display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:#101719bb;color:white;font-size:18px}
+.leisure-photo figcaption{font-size:13px;line-height:1.5;margin-top:12px;color:#d1d6d1}
+.leisure-photo figcaption small{display:block;font-size:10px;color:var(--muted);margin-top:5px}
+.personal-notes{display:grid;grid-template-columns:1fr 1fr;gap:60px;border-top:1px solid #38403d;padding-top:32px;margin-top:8px}
+.personal-notes h3{font-size:23px;margin-bottom:12px}.personal-notes p{font-size:15px}
+.photo-dialog{padding:50px 20px 20px;border:1px solid #43534f;border-radius:8px;background:#11191a;color:var(--text);max-width:95vw;max-height:95dvh}
+.photo-dialog::backdrop{background:rgba(4,9,12,.92)}
+.photo-dialog figure{margin:auto}.photo-dialog img{width:auto;height:auto;max-width:calc(95vw - 42px);max-height:calc(95dvh - 145px);object-fit:contain;margin:auto}
+.photo-caption{font-size:14px;text-align:center;max-width:700px;white-space:pre-line}
+.photo-close{position:absolute;right:10px;top:6px;border:0;background:transparent;color:white;font-size:30px;line-height:1;width:40px;height:40px;border-radius:4px}
+.photo-close:hover{background:#283735}body.photo-viewing{overflow:hidden}
+@media(max-width:680px){.leisure-gallery{columns:2;column-gap:14px}.leisure-photo{margin-bottom:20px}.leisure-photo figcaption{font-size:11px;margin-top:9px}.leisure-photo figcaption small{font-size:9px}.photo-zoom{width:26px;height:26px;right:8px;bottom:8px}.personal-notes{grid-template-columns:1fr;gap:25px}.photo-dialog{padding:48px 12px 16px}.photo-dialog img{max-width:calc(95vw - 26px)}.photo-caption{font-size:12px}}
+@media print{.photo-zoom,.photo-dialog{display:none}.leisure-gallery{columns:3}}

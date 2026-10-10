@@ -204,5 +204,25 @@
     "Xarxes bayesianes en medicina",
     "Programari obert per a mesurar l’eficiència"
   ],
-  "citationlabel": "Referència científica"
+  "citationlabel": "Referència científica",
+  "gallerylabel": "Moments fora de la universitat",
+  "expandphoto": "Amplia la foto",
+  "closephoto": "Tanca la foto",
+  "gallerytitles": [
+    "Sobre dos rodes",
+    "Dansa popular · 9 d’Octubre",
+    "Un record del rem",
+    "Temps compartit",
+    "Dolçaina al carrer",
+    "Vora la mar"
+  ],
+  "galleryalts": [
+    "Eixida amb bicicleta per una senda",
+    "Xavier amb dolçaina i indumentària tradicional en la dansa del 9 d’Octubre",
+    "Xavier amb un trofeu de rem a Benidorm, en 2025",
+    "Xavier somrient durant una trobada informal",
+    "Xavier amb gorra morada i dolçaina roja",
+    "Xavier vora la mar al capvespre"
+  ],
+  "photocredit": "Fotografia original: Federació de Folklore d’Alacant"
 }
