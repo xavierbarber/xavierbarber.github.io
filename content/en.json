@@ -227,5 +227,9 @@
   "photocredit": "Original photograph: Federació de Folklore d’Alacant",
   "consultingtitle": "Consultancy and knowledge transfer",
   "consultingtext": "Collaboration with businesses, public bodies and research teams to apply artificial intelligence and data science to practical challenges: study design, model development and validation, and support for decision-making.",
-  "consultingcta": "Discuss a project"
+  "consultingcta": "Discuss a project",
+  "contactaddress": [
+    "i-MInD Institute",
+    "03202 Elx (Spain)"
+  ]
 }

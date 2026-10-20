@@ -227,5 +227,9 @@
   "photocredit": "Fotografia original: Federació de Folklore d’Alacant",
   "consultingtitle": "Consultoria i transferència",
   "consultingtext": "Col·laboració amb empreses, administracions i equips d’investigació per a aplicar la intel·ligència artificial i la ciència de dades a reptes concrets: disseny d’estudis, desenvolupament i validació de models i suport a la presa de decisions.",
-  "consultingcta": "Consultar un projecte"
+  "consultingcta": "Consultar un projecte",
+  "contactaddress": [
+    "Institut i-MInD",
+    "03202 Elx (Espanya)"
+  ]
 }
