@@ -7,7 +7,7 @@ parser=argparse.ArgumentParser();parser.add_argument('--pandoc',default=shutil.w
 DATA={l:json.loads((R/f'content/{l}.json').read_text()) for l in ('es','ca','en')}
 PAPERS=json.loads((R/'content/papers.json').read_text())
 BASE='https://xavierbarber.github.io/'
-IDS=['investigacion','proyectos','humanista','formacion','personal']
+IDS=['consultoria','investigacion','proyectos','humanista','formacion','personal']
 LINKS=['https://comunicacion.umh.es/2026/04/20/investigadores-de-la-umh-participan-en-el-desarrollo-del-nuevo-sistema-viogen-2-para-la-mejora-de-la-valoracion-del-riesgo-en-violencia-de-genero/','https://doi.org/10.1007/s00464-024-11237-4','https://doi.org/10.1016/j.aquaculture.2024.740917','https://doi.org/10.1016/j.talanta.2013.02.009','https://doi.org/10.3390/agronomy11091870','https://doi.org/10.1111/1750-3841.13501']
 E=html.escape
 
@@ -20,11 +20,11 @@ def paragraphs(ps):return ''.join(f'<p>{E(p)}</p>' for p in ps)
 
 def shell(l,key,body,title=None):
  d=DATA[l];p=root(l);home='' if key=='index' else 'index.html';title=title or d['title'];url=BASE+path(l)+('' if key=='index' else key+'.html')
- nav=''.join(f'<a href="{home}#{i}">{E(n)}</a>' for i,n in zip(IDS,d['nav']))
+ nav=''.join(f'<a'+(' class="nav-consulting"' if i=='consultoria' else '')+f' href="'+('' if i=='consultoria' else home)+f'#{i}">{E(n)}</a>' for i,n in zip(IDS,d['nav']))
  langs=''.join(f'<a href="{p}{path(ll)}{key}.html" lang="{DATA[ll]["lang"]}" hreflang="{DATA[ll]["lang"]}"'+(' aria-current="true"' if ll==l else '')+f'>{name}</a>' for ll,name in [('es','ES'),('ca','VA'),('en','EN')])
  alts=''.join(f'<link rel="alternate" hreflang="{DATA[ll]["lang"]}" href="{BASE}{path(ll)}{key}.html">' for ll in DATA)
  return f'''<!doctype html>
-<html lang="{d['lang']}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{E(title)} · Xavier Barber</title><meta name="description" content="{E(d['intro'],quote=True)}"><link rel="canonical" href="{url}">{alts}<link rel="alternate" hreflang="x-default" href="{BASE}{key}.html"><meta property="og:title" content="{E(title,quote=True)} · Xavier Barber"><meta property="og:description" content="{E(d['intro'],quote=True)}"><meta property="og:url" content="{url}"><meta property="og:type" content="website"><meta name="theme-color" content="#0c1117"><link rel="icon" href="{p}assets/monogram.svg" type="image/svg+xml"><link rel="stylesheet" href="{p}assets/site.css?v=20261021-address"><script defer src="{p}assets/site.js?v=20261021-address"></script></head>
+<html lang="{d['lang']}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{E(title)} · Xavier Barber</title><meta name="description" content="{E(d['intro'],quote=True)}"><link rel="canonical" href="{url}">{alts}<link rel="alternate" hreflang="x-default" href="{BASE}{key}.html"><meta property="og:title" content="{E(title,quote=True)} · Xavier Barber"><meta property="og:description" content="{E(d['intro'],quote=True)}"><meta property="og:url" content="{url}"><meta property="og:type" content="website"><meta name="theme-color" content="#0c1117"><link rel="icon" href="{p}assets/monogram.svg" type="image/svg+xml"><link rel="stylesheet" href="{p}assets/site.css?v=20261021-consulting-nav"><script defer src="{p}assets/site.js?v=20261021-consulting-nav"></script></head>
 <body><a class="skip" href="#main">{E(d['skip'])}</a><header class="site-header"><div class="wrap header-inner"><a class="brand" href="index.html">XAVIER BARBER<span>{E(d['brandtag'])}</span></a><button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">{d['menu']} <span aria-hidden="true">☰</span></button><nav id="main-nav" aria-label="{E(d['menu'])}">{nav}{link(d['talk'],'#contact','nav-contact')}</nav><nav class="languages" aria-label="{E(d['language'])}">{langs}</nav></div></header><main id="main">{body}</main>{contact(l)}<footer><div class="wrap footer-inner"><div class="brand">XAVIER BARBER<span>{E(d['footer'])}</span></div><div>{link('ORCID','https://orcid.org/0000-0003-3079-5855')}{link('Google Scholar','https://scholar.google.com/citations?user=KUzOpI4AAAAJ')}{link(d['umhprofile'],'https://portalinvestigacion.umh.es/investigadores/2181582/detalle')}</div><small>© 2026 Xavier Barber · {E(d['location'])}</small></div></footer></body></html>'''
 
 def hero(l):
@@ -76,7 +76,7 @@ def download(l):
 
 def contact(l):
  d=DATA[l];address="<br>".join(E(line) for line in d["contactaddress"])
- consulting=f'<div class="contact-consulting"><div><h3>{E(d["consultingtitle"])}</h3><p>{E(d["consultingtext"])}</p></div>{link(d["consultingcta"],"mailto:xbarber@umh.es?subject="+quote(d["consultingtitle"]),"button outline")}</div>'
+ consulting=f'<div class="contact-consulting" id="consultoria"><div><h3>{E(d["consultingtitle"])}</h3><p class="consulting-lead">{E(d["consultinglead"])}</p><p>{E(d["consultingtext"])}</p></div>{link(d["consultingcta"],"mailto:xbarber@umh.es?subject="+quote(d["consultingtitle"]),"button outline")}</div>'
  return f'<section class="section contact" id="contact"><div class="wrap"><div class="contact-grid"><div>{label(d,"contactlabel")}{heading(d,"contacttitle")}<p>{E(d["contacttext"])}</p></div><div><a class="email" href="mailto:xbarber@umh.es">xbarber@umh.es ↗</a><p>Universidad Miguel Hernández de Elche<br>{address}</p></div></div>{consulting}<div class="contact-options">'+''.join(link(t,'mailto:xbarber@umh.es?subject='+quote(t)) for t in d['contactoptions'][1:])+'</div></div></section>'
 
 RAW=subprocess.check_output([args.pandoc,str(R/'cva.Rmd'),'--from=markdown','--to=html5','--wrap=none'],text=True)

@@ -3,6 +3,7 @@
   "label": "English",
   "title": "Artificial intelligence, data science and people",
   "nav": [
+    "Consultancy and knowledge transfer",
     "Research",
     "Projects",
     "Human-centred AI",
@@ -226,10 +227,11 @@
   ],
   "photocredit": "Original photograph: Federació de Folklore d’Alacant",
   "consultingtitle": "Consultancy and knowledge transfer",
-  "consultingtext": "Collaboration with businesses, public bodies and research teams to apply artificial intelligence and data science to practical challenges: study design, model development and validation, and support for decision-making.",
-  "consultingcta": "Discuss a project",
+  "consultingtext": "Do you need to improve a process, evaluate a service or understand where AI could add value? I work with businesses and public bodies to turn that challenge into a concrete project: defining the question, analysing the data, and developing and validating a solution for your organisation.",
+  "consultingcta": "Let's discuss your challenge",
   "contactaddress": [
     "i-MInD Institute",
     "03202 Elx (Spain)"
-  ]
+  ],
+  "consultinglead": "Improve processes. Evaluate results. Make evidence-informed decisions."
 }

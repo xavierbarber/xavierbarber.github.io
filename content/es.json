@@ -3,6 +3,7 @@
   "label": "Español",
   "title": "Inteligencia artificial, ciencia de datos y personas",
   "nav": [
+    "Consultoría y transferencia",
     "Investigación",
     "Proyectos",
     "IA humanista",
@@ -226,10 +227,11 @@
   ],
   "photocredit": "Fotografía original: Federació de Folklore d’Alacant",
   "consultingtitle": "Consultoría y transferencia",
-  "consultingtext": "Colaboración con empresas, administraciones y equipos de investigación para aplicar la inteligencia artificial y la ciencia de datos a retos concretos: diseño de estudios, desarrollo y validación de modelos y apoyo a la toma de decisiones.",
-  "consultingcta": "Consultar un proyecto",
+  "consultingtext": "¿Necesitas mejorar un proceso, evaluar un servicio o saber dónde puede aportar valor la IA? Trabajo con empresas y administraciones para convertir ese reto en un proyecto concreto: definir la pregunta, analizar los datos y desarrollar y validar una solución aplicable a tu organización.",
+  "consultingcta": "Hablemos de tu reto",
   "contactaddress": [
     "Instituto i-MInD",
     "03202 Elx (España)"
-  ]
+  ],
+  "consultinglead": "Mejora procesos. Evalúa resultados. Decide con evidencia."
 }

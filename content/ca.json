@@ -3,6 +3,7 @@
   "label": "Valencià",
   "title": "Intel·ligència artificial, ciència de dades i persones",
   "nav": [
+    "Consultoria i transferència",
     "Investigació",
     "Projectes",
     "IA humanista",
@@ -226,10 +227,11 @@
   ],
   "photocredit": "Fotografia original: Federació de Folklore d’Alacant",
   "consultingtitle": "Consultoria i transferència",
-  "consultingtext": "Col·laboració amb empreses, administracions i equips d’investigació per a aplicar la intel·ligència artificial i la ciència de dades a reptes concrets: disseny d’estudis, desenvolupament i validació de models i suport a la presa de decisions.",
-  "consultingcta": "Consultar un projecte",
+  "consultingtext": "Necessites millorar un procés, avaluar un servici o saber on pot aportar valor la IA? Treballe amb empreses i administracions per a convertir eixe repte en un projecte concret: definir la pregunta, analitzar les dades i desenvolupar i validar una solució aplicable a la teua organització.",
+  "consultingcta": "Parlem del teu repte",
   "contactaddress": [
     "Institut i-MInD",
     "03202 Elx (Espanya)"
-  ]
+  ],
+  "consultinglead": "Millora processos. Avalua resultats. Decidix amb evidència."
 }
