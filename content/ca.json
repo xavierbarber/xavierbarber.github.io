@@ -16,8 +16,8 @@
   "language": "Tria l'idioma",
   "eyebrow": "Xavier Barber · IA, bioestadística i salut",
   "hero": [
-    "IA humanista.",
-    "Al servici de la salut."
+    "Humanista.",
+    "Per a la salut."
   ],
   "intro": "Col·labore amb metges i equips sanitaris per a convertir preguntes clíniques en estudis, models i evidència útil. També treballe amb empreses i administracions en projectes de ciència de dades.",
   "cta": "Parlem del teu estudi clínic",
@@ -234,5 +234,6 @@
     "03202 Elx (Espanya)"
   ],
   "consultinglead": "Millora processos. Avalua resultats. Decidix amb evidència.",
-  "humancta": "La meua visió d’una IA humanista"
+  "humancta": "La meua visió d’una IA humanista",
+  "heroaccessible": "Intel·ligència artificial humanista per a la salut"
 }

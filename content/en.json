@@ -16,8 +16,8 @@
   "language": "Choose language",
   "eyebrow": "Xavier Barber · AI, biostatistics and health",
   "hero": [
-    "Human-centred AI.",
-    "Working for health."
+    "Human-centred.",
+    "For health."
   ],
   "intro": "I collaborate with doctors and healthcare teams to turn clinical questions into studies, models and useful evidence. I also work with businesses and public bodies on data science projects.",
   "cta": "Let’s discuss your clinical study",
@@ -234,5 +234,6 @@
     "03202 Elx (Spain)"
   ],
   "consultinglead": "Improve processes. Evaluate results. Make evidence-informed decisions.",
-  "humancta": "My approach to human-centred AI"
+  "humancta": "My approach to human-centred AI",
+  "heroaccessible": "Human-centred artificial intelligence for health"
 }

@@ -145,3 +145,12 @@ h1,h2,h3{text-wrap:balance}p{text-wrap:pretty}
 @media(max-width:980px){.health-cta{grid-template-columns:1fr}.health-cta .button{justify-self:start}}
 @media(max-width:680px){.health-capabilities{grid-template-columns:1fr;gap:26px;margin:30px 0 45px}.health-more ul{grid-template-columns:1fr}.health-cta{padding:24px;gap:24px}.health-papers-heading h3{font-size:27px}.health .paper-meta{flex-wrap:wrap}.health .paper-meta>span+span{max-width:85%}}
 @media print{.health{background:white}.health-cta{display:none}}
+
+/* IA / AI: static bilingual initials, with a clearly serifed capital I. */
+.hero h1.hero-wordmark{max-width:700px;letter-spacing:-.035em}
+.hero-initials{display:flex;align-items:center;gap:.25em;width:fit-content;font-family:"Courier New",Courier,monospace;font-size:clamp(78px,7.8vw,112px);font-weight:700;line-height:1;letter-spacing:-.07em;color:var(--accent);white-space:nowrap}
+.hero-initials .initials-divider{font-weight:400;color:#7b939c;font-size:.65em;letter-spacing:0}
+.hero h1 .hero-message{display:block;font-size:clamp(36px,4.1vw,56px);line-height:1.1;margin-top:18px;color:var(--text)}
+.hero h1 .hero-message>span{color:var(--accent)}
+.hero-wordmark+.hero-intro{margin-top:25px}
+@media(max-width:680px){.hero-initials{font-size:clamp(72px,20vw,96px)}.hero-message{font-size:clamp(32px,8.6vw,43px);margin-top:14px}.hero-wordmark+.hero-intro{margin-top:22px}}
