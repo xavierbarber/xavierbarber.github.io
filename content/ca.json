@@ -1,7 +1,7 @@
 {
   "lang": "ca-valencia",
   "label": "Valencià",
-  "title": "IA, bioestadística i salut",
+  "title": "IA humanista i salut",
   "nav": [
     "IA i Salut",
     "Consultoria i transferència",
@@ -17,7 +17,7 @@
   "language": "Tria l'idioma",
   "eyebrow": "Xavier Barber · IA, bioestadística i salut",
   "hero": [
-    "IA i estadística.",
+    "IA humanista.",
     "Al servici de la salut."
   ],
   "intro": "Col·labore amb metges i equips sanitaris per a convertir preguntes clíniques en estudis, models i evidència útil. També treballe amb empreses i administracions en projectes de ciència de dades.",

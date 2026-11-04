@@ -1,7 +1,7 @@
 {
   "lang": "en-GB",
   "label": "English",
-  "title": "AI, biostatistics and health",
+  "title": "Human-centred AI and health",
   "nav": [
     "AI & Health",
     "Consultancy and knowledge transfer",
@@ -17,7 +17,7 @@
   "language": "Choose language",
   "eyebrow": "Xavier Barber · AI, biostatistics and health",
   "hero": [
-    "AI and statistics.",
+    "Human-centred AI.",
     "Working for health."
   ],
   "intro": "I collaborate with doctors and healthcare teams to turn clinical questions into studies, models and useful evidence. I also work with businesses and public bodies on data science projects.",
