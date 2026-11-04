@@ -8,7 +8,7 @@ DATA={l:json.loads((R/f'content/{l}.json').read_text()) for l in ('es','ca','en'
 PAPERS=json.loads((R/'content/papers.json').read_text())
 HEALTH=json.loads((R/'content/health.json').read_text())
 BASE='https://xavierbarber.github.io/'
-IDS=['salud','consultoria','investigacion','proyectos','humanista','formacion','personal']
+IDS=['salud','consultoria','investigacion','proyectos','formacion','perfil']
 LINKS=['https://comunicacion.umh.es/2026/04/20/investigadores-de-la-umh-participan-en-el-desarrollo-del-nuevo-sistema-viogen-2-para-la-mejora-de-la-valoracion-del-riesgo-en-violencia-de-genero/','https://doi.org/10.1007/s00464-024-11237-4','https://doi.org/10.1016/j.aquaculture.2024.740917','https://doi.org/10.1016/j.talanta.2013.02.009','https://doi.org/10.3390/agronomy11091870','https://doi.org/10.1111/1750-3841.13501']
 E=html.escape
 
@@ -21,7 +21,7 @@ def paragraphs(ps):return ''.join(f'<p>{E(p)}</p>' for p in ps)
 
 def shell(l,key,body,title=None):
  d=DATA[l];p=root(l);home='' if key=='index' else 'index.html';title=title or d['title'];url=BASE+path(l)+('' if key=='index' else key+'.html')
- nav=''.join(f'<a'+(' class="nav-consulting"' if i=='consultoria' else '')+f' href="'+('' if i=='consultoria' else home)+f'#{i}">{E(n)}</a>' for i,n in zip(IDS,d['nav']))
+ nav=''.join(f'<a'+(' class="nav-consulting"' if i=='consultoria' else '')+f' href="'+('about.html#perfil' if i=='perfil' else ('' if i=='consultoria' else home)+'#'+i)+f'">{E(n)}</a>' for i,n in zip(IDS,d['nav']))
  langs=''.join(f'<a href="{p}{path(ll)}{key}.html" lang="{DATA[ll]["lang"]}" hreflang="{DATA[ll]["lang"]}"'+(' aria-current="true"' if ll==l else '')+f'>{name}</a>' for ll,name in [('es','ES'),('ca','VA'),('en','EN')])
  alts=''.join(f'<link rel="alternate" hreflang="{DATA[ll]["lang"]}" href="{BASE}{path(ll)}{key}.html">' for ll in DATA)
  return f'''<!doctype html>
@@ -47,7 +47,7 @@ def health(l):
 
 def profile(l,expanded=False):
  d=DATA[l];p=root(l)
- s=f'''<section class="section" id="perfil"><div class="wrap profile-grid"><div>{label(d,'aboutlabel')}{heading(d,'abouttitle')}<p class="lead">{E(d['aboutlead'])}</p>{paragraphs(d['aboutparagraphs'] if expanded else d['aboutparagraphs'][:2])}{link(d['profilecta'],'about.html#career')}</div><figure><img src="{p}photos/spatial-statistics-talk.svg" width="1200" height="900" loading="lazy" alt="{E(d['researchphotoalt'])}"><figcaption>Xavier Barber · i-MInD · UMH</figcaption></figure></div>'''
+ s=f'''<section class="section" id="perfil"><div class="wrap profile-grid"><div>{label(d,'aboutlabel')}{heading(d,'abouttitle')}<p class="lead">{E(d['aboutlead'])}</p>{paragraphs(d['aboutparagraphs'] if expanded else d['aboutparagraphs'][:2])}{link(d['profilecta'],'about.html#career')}<p>{link(d['humancta'],'#humanista')}</p></div><figure><img src="{p}photos/spatial-statistics-talk.svg" width="1200" height="900" loading="lazy" alt="{E(d['researchphotoalt'])}"><figcaption>Xavier Barber · i-MInD · UMH</figcaption></figure></div>'''
  if expanded:s+=f'<div class="wrap career" id="career"><h3>{E(d["career"])}</h3><ul>'+''.join('<li>'+E(t)+'</li>' for t in d['careeritems'])+'</ul></div>'
  return s+'</section>'
 

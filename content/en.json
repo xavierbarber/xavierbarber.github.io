@@ -4,12 +4,11 @@
   "title": "Human-centred AI and health",
   "nav": [
     "AI & Health",
-    "Consultancy and knowledge transfer",
+    "Collaboration",
     "Research",
     "Projects",
-    "Human-centred AI",
     "Training",
-    "Beyond work"
+    "About me"
   ],
   "talk": "Let's talk",
   "menu": "Menu",
@@ -234,5 +233,6 @@
     "i-MInD Institute",
     "03202 Elx (Spain)"
   ],
-  "consultinglead": "Improve processes. Evaluate results. Make evidence-informed decisions."
+  "consultinglead": "Improve processes. Evaluate results. Make evidence-informed decisions.",
+  "humancta": "My approach to human-centred AI"
 }

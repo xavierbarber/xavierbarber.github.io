@@ -4,12 +4,11 @@
   "title": "IA humanista y salud",
   "nav": [
     "IA y Salud",
-    "Consultoría y transferencia",
+    "Colaboración",
     "Investigación",
     "Proyectos",
-    "IA humanista",
     "Formación",
-    "Mi lado personal"
+    "Sobre mí"
   ],
   "talk": "Hablemos",
   "menu": "Menú",
@@ -234,5 +233,6 @@
     "Instituto i-MInD",
     "03202 Elx (España)"
   ],
-  "consultinglead": "Mejora procesos. Evalúa resultados. Decide con evidencia."
+  "consultinglead": "Mejora procesos. Evalúa resultados. Decide con evidencia.",
+  "humancta": "Mi visión de una IA humanista"
 }
