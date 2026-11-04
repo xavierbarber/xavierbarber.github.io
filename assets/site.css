@@ -132,3 +132,16 @@ h1,h2,h3{text-wrap:balance}p{text-wrap:pretty}
  #main-nav>a[aria-current="location"]::after{bottom:5px;left:10px}
 }
 @media(max-width:680px){.header-inner{height:72px}.menu-toggle{padding:5px 8px;font-size:11px}#main-nav{top:72px;max-height:calc(100dvh - 72px)}}
+
+/* Health is the main route for clinical collaborators. */
+.health{background:linear-gradient(140deg,#112b32,#0f1b24 65%);border-top:1px solid #34565c}
+.health-capabilities{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;margin:40px 0 64px}
+.health-capabilities article{border-top:2px solid var(--accent);padding-top:20px}.health-capabilities h3{font-size:23px;margin-bottom:12px}.health-capabilities p{font-size:15px}
+.health-papers-heading{margin-bottom:30px}.health-papers-heading h3{font-size:30px;margin-bottom:12px}.health-papers-heading p{max-width:760px}
+.health .paper-meta{align-items:flex-start}.health .paper-meta>span+span{font-size:10px}.health .authors{overflow-wrap:anywhere}
+.health-more{margin-top:35px;padding-top:30px;border-top:1px solid var(--line)}.health-more h3{font-size:25px;margin-bottom:20px}.health-more ul{padding:0;list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:24px 40px;margin-bottom:28px}.health-more small{display:block;color:var(--muted);font-size:12px;margin-top:8px}.health-more .text-link{font-size:14px}
+.health-cta{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:40px;align-items:center;border:1px solid #426a70;border-radius:6px;padding:30px;margin-top:40px;background:#18343a}.health-cta h3{font-size:26px;margin-bottom:12px}.health-cta p{max-width:660px}.health-cta .button{max-width:300px;text-align:center}
+#main-nav>a[href$="#salud"]{color:var(--accent)}
+@media(max-width:980px){.health-cta{grid-template-columns:1fr}.health-cta .button{justify-self:start}}
+@media(max-width:680px){.health-capabilities{grid-template-columns:1fr;gap:26px;margin:30px 0 45px}.health-more ul{grid-template-columns:1fr}.health-cta{padding:24px;gap:24px}.health-papers-heading h3{font-size:27px}.health .paper-meta{flex-wrap:wrap}.health .paper-meta>span+span{max-width:85%}}
+@media print{.health{background:white}.health-cta{display:none}}

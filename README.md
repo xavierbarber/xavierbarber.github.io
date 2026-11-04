@@ -42,3 +42,7 @@ are retained as legacy sources and are not used by this build.
 The homepage portrait includes a decorative SVG/CSS holographic cycle (18 seconds),
 with translated pause/resume controls. It starts disabled for reduced-motion
 preferences and without JavaScript. No GIF or video is loaded for this effect.
+
+## Health-first update · 4 November 2026
+
+`content/health.json` contains the curated health publications, original references and complete Spanish, Valencian and English copy. The public ORCID inventory was reviewed alongside publisher records; no new citation counts are claimed. The homepage and applied-research page prioritise health, followed by the remaining fields. VioGén-2 is described in the first person, naming Fernando Miró and Juan Aparicio and linking the official UMH announcement.

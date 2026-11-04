@@ -1,8 +1,9 @@
 {
   "lang": "es",
   "label": "Español",
-  "title": "Inteligencia artificial, ciencia de datos y personas",
+  "title": "IA, bioestadística y salud",
   "nav": [
+    "IA y Salud",
     "Consultoría y transferencia",
     "Investigación",
     "Proyectos",
@@ -14,13 +15,13 @@
   "menu": "Menú",
   "skip": "Saltar al contenido",
   "language": "Elegir idioma",
-  "eyebrow": "Xavier Barber · Ciencia de datos con criterio",
+  "eyebrow": "Xavier Barber · IA, bioestadística y salud",
   "hero": [
-    "Datos con rigor.",
-    "IA con propósito."
+    "IA y estadística.",
+    "Al servicio de la salud."
   ],
-  "intro": "Conecto investigación, inteligencia artificial y conocimiento del problema para ayudar a empresas, administraciones y equipos científicos a decidir mejor.",
-  "cta": "Hablemos de tu proyecto",
+  "intro": "Colaboro con médicos y equipos sanitarios para convertir preguntas clínicas en estudios, modelos y evidencia útil. También trabajo con empresas y administraciones en proyectos de ciencia de datos.",
+  "cta": "Hablemos de tu estudio clínico",
   "researchcta": "Explora mi investigación",
   "role": "Catedrático UMH · Subdirector de i-MInD · Director de la Unidad Mixta UMH–FISABIO",
   "photoalt": "Retrato de Xavier Barber con un libro y una pizarra de estadística bayesiana",
@@ -39,7 +40,7 @@
       "Chair del Representative Council · 2026–2027"
     ]
   ],
-  "aboutlabel": "01 / PERFIL",
+  "aboutlabel": "02 / PERFIL",
   "abouttitle": "Una base científica. Muchas formas de aportar.",
   "aboutlead": "La buena solución empieza por entender bien la pregunta.",
   "aboutparagraphs": [
@@ -55,9 +56,9 @@
     "Miembro de la Junta Ejecutiva de la Sociedad Española de Bioestadística.",
     "Vicerrector adjunto de Investigación en la UMH, 2011–2023. Actividad editorial y de revisión científica, incluida la edición estadística para Public Health Nutrition."
   ],
-  "researchlabel": "02 / INVESTIGACIÓN SELECCIONADA",
-  "researchtitle": "El método importa. La aplicación, también.",
-  "researchintro": "Aprendizaje automático, incertidumbre y modelos que conectan disciplinas. Una selección de trabajos con acceso a la publicación original.",
+  "researchlabel": "03 / INVESTIGACIÓN SELECCIONADA",
+  "researchtitle": "Métodos que conectan otros ámbitos.",
+  "researchintro": "Mi investigación también desarrolla métodos para el medio ambiente y el análisis de eficiencia.",
   "allpapers": "Ver todas las publicaciones seleccionadas",
   "filters": [
     "Todos",
@@ -76,7 +77,7 @@
     "Revisión del uso de redes bayesianas para el diagnóstico y el pronóstico de enfermedades.",
     "Software abierto en R para aplicar árboles de análisis de eficiencia."
   ],
-  "projectslabel": "03 / PROYECTOS Y TRANSFERENCIA",
+  "projectslabel": "04 / PROYECTOS Y TRANSFERENCIA",
   "projectstitle": "De los datos a las decisiones.",
   "projectsintro": "Experiencia en problemas concretos y sectores distintos. Estos casos ilustran líneas de trabajo, no agotan todas las colaboraciones.",
   "projectnames": [
@@ -96,7 +97,7 @@
     "CALIDAD Y DESARROLLO"
   ],
   "projecttexts": [
-    "Desarrollo y validación de modelos predictivos para la valoración del riesgo de reincidencia, dentro del proyecto ALTEA. Estadística e IA para apoyar los instrumentos de valoración policial del riesgo.",
+    "Participo en el equipo UMH del proyecto ALTEA, junto a Fernando Miró Llinares y Juan Aparicio Baeza, para revisar y mejorar los instrumentos de valoración policial del riesgo del sistema VioGén-2. El proyecto está impulsado por el Ministerio del Interior y dirigido por la Secretaría de Estado de Seguridad.",
     "Entre los casos de éxito: predicción del riesgo musculoesquelético en cirujanos y análisis de la aceptación de la teleconsulta. Una muestra de una trayectoria más amplia en estudios clínicos, tratamientos y herramientas predictivas.",
     "Riesgo térmico en acuicultura, distribución de especies e integración de datos ambientales. Mapas y modelos para orientar la gestión y la adaptación.",
     "Compost Calculator, caracterización de lodos, valorización de residuos, riego y zonificación de suelos. Análisis para evaluar procesos y opciones de uso de los recursos.",
@@ -107,7 +108,7 @@
   "partner": "Ciencia compartida, soluciones que suman.",
   "partnertext": "Colaboro con Juan Aparicio y otros equipos de investigación en el desarrollo de métodos y en proyectos de transferencia. El conocimiento del sector y la colaboración entre disciplinas forman parte de cada solución.",
   "partnerlink": "Conoce el trabajo de Juan Aparicio",
-  "humanlabel": "04 / IA HUMANISTA",
+  "humanlabel": "05 / IA HUMANISTA",
   "humantitle": "La tecnología ayuda. Las personas deciden.",
   "humanintro": "Una IA útil debe cuidar tanto la calidad del modelo como a las personas a las que afecta.",
   "humantext": "Mi experiencia en valoración del riesgo, investigación sanitaria y análisis de encuestas ciudadanas a gran escala conecta los métodos con necesidades sociales. Entiendo la IA como una herramienta para apoyar decisiones informadas, con supervisión humana y atención a sus límites.",
@@ -131,7 +132,7 @@
   ],
   "ethicstitle": "Ética e integridad en la práctica científica",
   "ethicstext": "Miembro con perfil bioestadístico del Comité de Ética de Experimentación Animal y del Comité de Ética e Integridad en la Investigación de la UMH, desde septiembre de 2026.",
-  "traininglabel": "05 / FORMACIÓN",
+  "traininglabel": "06 / FORMACIÓN",
   "trainingtitle": "Comprender la IA. Trabajar mejor con ella.",
   "trainingintro": "Formación especializada para que los equipos comprendan las herramientas, interpreten los resultados y las apliquen con criterio en su trabajo.",
   "courses": [
@@ -154,7 +155,7 @@
   ],
   "teachingnote": "Docencia universitaria desde 2005, formación especializada y reconocimientos Talento Docente. Evaluaciones excelentes en DOCENTIA-UMH.",
   "trainingcta": "Plantea una formación para tu equipo",
-  "personallabel": "06 / FUERA DE LA UNIVERSIDAD",
+  "personallabel": "07 / FUERA DE LA UNIVERSIDAD",
   "personaltitle": "Fuera del aula.",
   "personalintro": "Soy de Dénia. La bicicleta y la dolçaina son dos maneras de desconectar, disfrutar y compartir tiempo con otras personas.",
   "biketitle": "Otra forma de recorrer el camino.",
@@ -167,7 +168,7 @@
   "downloadtitle": "Mi experiencia, de un vistazo.",
   "downloadtext": "Ámbitos de aplicación, formación y liderazgo científico en una infografía descargable.",
   "downloadcta": "Descargar PDF · Español · 1,2 MB",
-  "contactlabel": "07 / CONTACTO",
+  "contactlabel": "08 / CONTACTO",
   "contacttitle": "Tu próximo reto. Hablemos.",
   "contacttext": "Cuéntame qué necesitas decidir, qué datos tienes o qué formación necesita tu equipo. Empecemos por una buena pregunta.",
   "contactoptions": [

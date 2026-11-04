@@ -1,8 +1,9 @@
 {
   "lang": "ca-valencia",
   "label": "Valencià",
-  "title": "Intel·ligència artificial, ciència de dades i persones",
+  "title": "IA, bioestadística i salut",
   "nav": [
+    "IA i Salut",
     "Consultoria i transferència",
     "Investigació",
     "Projectes",
@@ -14,13 +15,13 @@
   "menu": "Menú",
   "skip": "Ves al contingut",
   "language": "Tria l'idioma",
-  "eyebrow": "Xavier Barber · Ciència de dades amb criteri",
+  "eyebrow": "Xavier Barber · IA, bioestadística i salut",
   "hero": [
-    "Dades amb rigor.",
-    "IA amb propòsit."
+    "IA i estadística.",
+    "Al servici de la salut."
   ],
-  "intro": "Connecte investigació, intel·ligència artificial i coneixement del problema per a ajudar empreses, administracions i equips científics a decidir millor.",
-  "cta": "Parlem del teu projecte",
+  "intro": "Col·labore amb metges i equips sanitaris per a convertir preguntes clíniques en estudis, models i evidència útil. També treballe amb empreses i administracions en projectes de ciència de dades.",
+  "cta": "Parlem del teu estudi clínic",
   "researchcta": "Explora la meua investigació",
   "role": "Catedràtic UMH · Subdirector d'i-MInD · Director de la Unitat Mixta UMH–FISABIO",
   "photoalt": "Retrat de Xavier Barber amb un llibre i una pissarra d’estadística bayesiana",
@@ -39,7 +40,7 @@
       "Chair del Representative Council · 2026–2027"
     ]
   ],
-  "aboutlabel": "01 / PERFIL",
+  "aboutlabel": "02 / PERFIL",
   "abouttitle": "Una base científica. Moltes maneres d'aportar.",
   "aboutlead": "La bona solució comença per entendre bé la pregunta.",
   "aboutparagraphs": [
@@ -55,9 +56,9 @@
     "Membre de la Junta Executiva de la Societat Espanyola de Bioestadística.",
     "Vicerector adjunt d'Investigació a la UMH, 2011–2023. Activitat editorial i de revisió científica, inclosa l'edició estadística per a Public Health Nutrition."
   ],
-  "researchlabel": "02 / INVESTIGACIÓ SELECCIONADA",
-  "researchtitle": "El mètode importa. L'aplicació, també.",
-  "researchintro": "Aprenentatge automàtic, incertesa i models que connecten disciplines. Una selecció de treballs amb accés a la publicació original.",
+  "researchlabel": "03 / INVESTIGACIÓ SELECCIONADA",
+  "researchtitle": "Mètodes que connecten altres àmbits.",
+  "researchintro": "La meua investigació també desenvolupa mètodes per al medi ambient i l’anàlisi d’eficiència.",
   "allpapers": "Consulta totes les publicacions seleccionades",
   "filters": [
     "Tots",
@@ -76,7 +77,7 @@
     "Revisió de l’ús de xarxes bayesianes per al diagnòstic i el pronòstic de malalties.",
     "Programari obert en R per a aplicar arbres d’anàlisi d’eficiència."
   ],
-  "projectslabel": "03 / PROJECTES I TRANSFERÈNCIA",
+  "projectslabel": "04 / PROJECTES I TRANSFERÈNCIA",
   "projectstitle": "De les dades a les decisions.",
   "projectsintro": "Experiència en problemes concrets i sectors diferents. Estos casos il·lustren línies de treball, no esgoten totes les col·laboracions.",
   "projectnames": [
@@ -96,7 +97,7 @@
     "QUALITAT I DESENVOLUPAMENT"
   ],
   "projecttexts": [
-    "Desenvolupament i validació de models predictius per a la valoració del risc de reincidència, dins del projecte ALTEA. Estadística i IA per a donar suport als instruments de valoració policial del risc.",
+    "Participe en l’equip UMH del projecte ALTEA, amb Fernando Miró Llinares i Juan Aparicio Baeza, per a revisar i millorar els instruments de valoració policial del risc del sistema VioGén-2. El projecte està impulsat pel Ministeri de l’Interior i dirigit per la Secretaria d’Estat de Seguretat.",
     "Entre els casos d'èxit: predicció del risc musculoesquelètic en cirurgians i anàlisi de l'acceptació de la teleconsulta. Una mostra d'una trajectòria més àmplia en estudis clínics, tractaments i ferramentes predictives.",
     "Risc tèrmic en aqüicultura, distribució d'espècies i integració de dades ambientals. Mapes i models per a orientar la gestió i l'adaptació.",
     "Compost Calculator, caracterització de fangs, valorització de residus, reg i zonificació de sòls. Anàlisi per a avaluar processos i opcions d'ús dels recursos.",
@@ -107,7 +108,7 @@
   "partner": "Ciència compartida, solucions que sumen.",
   "partnertext": "Col·labore amb Juan Aparicio i altres equips d'investigació en el desenvolupament de mètodes i en projectes de transferència. El coneixement del sector i la col·laboració entre disciplines formen part de cada solució.",
   "partnerlink": "Coneix el treball de Juan Aparicio",
-  "humanlabel": "04 / IA HUMANISTA",
+  "humanlabel": "05 / IA HUMANISTA",
   "humantitle": "La tecnologia ajuda. Les persones decidixen.",
   "humanintro": "Una IA útil ha de cuidar tant la qualitat del model com les persones a les quals afecta.",
   "humantext": "La meua experiència en valoració del risc, investigació sanitària i anàlisi d'enquestes ciutadanes a gran escala connecta els mètodes amb necessitats socials. Entenc la IA com una ferramenta per a donar suport a decisions informades, amb supervisió humana i atenció als seus límits.",
@@ -131,7 +132,7 @@
   ],
   "ethicstitle": "Ètica i integritat en la pràctica científica",
   "ethicstext": "Membre amb perfil bioestadístic del Comité d'Ètica d'Experimentació Animal i del Comité d'Ètica i Integritat en la Investigació de la UMH, des de setembre de 2026.",
-  "traininglabel": "05 / FORMACIÓ",
+  "traininglabel": "06 / FORMACIÓ",
   "trainingtitle": "Comprendre la IA. Treballar millor amb ella.",
   "trainingintro": "Formació especialitzada perquè els equips comprenguen les ferramentes, interpreten els resultats i les apliquen amb criteri en el seu treball.",
   "courses": [
@@ -154,7 +155,7 @@
   ],
   "teachingnote": "Docència universitària des de 2005, formació especialitzada i reconeixements Talento Docente. Avaluacions excel·lents en DOCENTIA-UMH.",
   "trainingcta": "Planteja una formació per al teu equip",
-  "personallabel": "06 / FORA DE LA UNIVERSITAT",
+  "personallabel": "07 / FORA DE LA UNIVERSITAT",
   "personaltitle": "Fora de l’aula.",
   "personalintro": "Soc de Dénia. La bicicleta i la dolçaina són dos maneres de desconnectar, disfrutar i compartir temps amb altres persones.",
   "biketitle": "Una altra manera de recórrer el camí.",
@@ -167,7 +168,7 @@
   "downloadtitle": "La meua experiència, d'una ullada.",
   "downloadtext": "Àmbits d'aplicació, formació i lideratge científic en una infografia descarregable.",
   "downloadcta": "Descarrega el PDF · Castellà · 1,2 MB",
-  "contactlabel": "07 / CONTACTE",
+  "contactlabel": "08 / CONTACTE",
   "contacttitle": "El teu pròxim repte. Parlem.",
   "contacttext": "Conta'm què necessites decidir, quines dades tens o quina formació necessita el teu equip. Comencem per una bona pregunta.",
   "contactoptions": [

@@ -6,8 +6,9 @@ R=Path(__file__).resolve().parent
 parser=argparse.ArgumentParser();parser.add_argument('--pandoc',default=shutil.which('pandoc') or '/opt/homebrew/bin/pandoc');args=parser.parse_args()
 DATA={l:json.loads((R/f'content/{l}.json').read_text()) for l in ('es','ca','en')}
 PAPERS=json.loads((R/'content/papers.json').read_text())
+HEALTH=json.loads((R/'content/health.json').read_text())
 BASE='https://xavierbarber.github.io/'
-IDS=['consultoria','investigacion','proyectos','humanista','formacion','personal']
+IDS=['salud','consultoria','investigacion','proyectos','humanista','formacion','personal']
 LINKS=['https://comunicacion.umh.es/2026/04/20/investigadores-de-la-umh-participan-en-el-desarrollo-del-nuevo-sistema-viogen-2-para-la-mejora-de-la-valoracion-del-riesgo-en-violencia-de-genero/','https://doi.org/10.1007/s00464-024-11237-4','https://doi.org/10.1016/j.aquaculture.2024.740917','https://doi.org/10.1016/j.talanta.2013.02.009','https://doi.org/10.3390/agronomy11091870','https://doi.org/10.1111/1750-3841.13501']
 E=html.escape
 
@@ -24,12 +25,25 @@ def shell(l,key,body,title=None):
  langs=''.join(f'<a href="{p}{path(ll)}{key}.html" lang="{DATA[ll]["lang"]}" hreflang="{DATA[ll]["lang"]}"'+(' aria-current="true"' if ll==l else '')+f'>{name}</a>' for ll,name in [('es','ES'),('ca','VA'),('en','EN')])
  alts=''.join(f'<link rel="alternate" hreflang="{DATA[ll]["lang"]}" href="{BASE}{path(ll)}{key}.html">' for ll in DATA)
  return f'''<!doctype html>
-<html lang="{d['lang']}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{E(title)} · Xavier Barber</title><meta name="description" content="{E(d['intro'],quote=True)}"><link rel="canonical" href="{url}">{alts}<link rel="alternate" hreflang="x-default" href="{BASE}{key}.html"><meta property="og:title" content="{E(title,quote=True)} · Xavier Barber"><meta property="og:description" content="{E(d['intro'],quote=True)}"><meta property="og:url" content="{url}"><meta property="og:type" content="website"><meta name="theme-color" content="#0c1117"><link rel="icon" href="{p}assets/monogram.svg" type="image/svg+xml"><link rel="stylesheet" href="{p}assets/site.css?v=20261021-consulting-nav"><script defer src="{p}assets/site.js?v=20261021-consulting-nav"></script></head>
+<html lang="{d['lang']}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{E(title)} · Xavier Barber</title><meta name="description" content="{E(d['intro'],quote=True)}"><link rel="canonical" href="{url}">{alts}<link rel="alternate" hreflang="x-default" href="{BASE}{key}.html"><meta property="og:title" content="{E(title,quote=True)} · Xavier Barber"><meta property="og:description" content="{E(d['intro'],quote=True)}"><meta property="og:url" content="{url}"><meta property="og:type" content="website"><meta name="theme-color" content="#0c1117"><link rel="icon" href="{p}assets/monogram.svg" type="image/svg+xml"><link rel="stylesheet" href="{p}assets/site.css?v=20261104-health"><script defer src="{p}assets/site.js?v=20261104-health"></script></head>
 <body><a class="skip" href="#main">{E(d['skip'])}</a><header class="site-header"><div class="wrap header-inner"><a class="brand" href="index.html">XAVIER BARBER<span>{E(d['brandtag'])}</span></a><button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">{d['menu']} <span aria-hidden="true">☰</span></button><nav id="main-nav" aria-label="{E(d['menu'])}">{nav}{link(d['talk'],'#contact','nav-contact')}</nav><nav class="languages" aria-label="{E(d['language'])}">{langs}</nav></div></header><main id="main">{body}</main>{contact(l)}<footer><div class="wrap footer-inner"><div class="brand">XAVIER BARBER<span>{E(d['footer'])}</span></div><div>{link('ORCID','https://orcid.org/0000-0003-3079-5855')}{link('Google Scholar','https://scholar.google.com/citations?user=KUzOpI4AAAAJ')}{link(d['umhprofile'],'https://portalinvestigacion.umh.es/investigadores/2181582/detalle')}</div><small>© 2026 Xavier Barber · {E(d['location'])}</small></div></footer></body></html>'''
 
 def hero(l):
  d=DATA[l];p=root(l)
- return f'''<section class="hero" id="inicio" data-hud="off"><div class="hero-photo" aria-hidden="true"><img src="{p}photos/xavier-bayes.webp" width="1536" height="1024" fetchpriority="high" alt=""><div class="hero-hud"><div class="hud-stage"><img class="hud-panels" src="{p}assets/hero-hud.svg" width="800" height="710" alt=""><div class="hud-orbit"></div><div class="hud-scan"></div></div></div></div><div class="wrap hero-content">{label(d,'eyebrow')}<h1>{E(d['hero'][0])}<br><span>{E(d['hero'][1])}</span></h1><p class="hero-intro">{E(d['intro'])}</p><div class="actions">{link(d['cta'],'#contact','button')}{link(d['researchcta'],'#investigacion')}</div><p class="hero-role">{E(d['role'])}</p></div><div class="hero-bottom wrap"><span>{E(d['photocaption'])}</span><div class="hud-controls"><button class="hud-toggle" hidden data-pause="{E(d['hudlabels'][0])}" data-resume="{E(d['hudlabels'][1])}" data-enable="{E(d['hudlabels'][2])}"><span class="hud-toggle-icon" aria-hidden="true">Ⅱ</span> <span class="hud-toggle-label">{E(d['hudlabels'][0])}</span></button></div></div></section><div class="credentials"><div class="wrap">{''.join('<div><strong>'+E(a)+'</strong><span>'+E(b)+'</span></div>' for a,b in d['credentials'])}</div></div>'''
+ return f'''<section class="hero" id="inicio" data-hud="off"><div class="hero-photo" aria-hidden="true"><img src="{p}photos/xavier-bayes.webp" width="1536" height="1024" fetchpriority="high" alt=""><div class="hero-hud"><div class="hud-stage"><img class="hud-panels" src="{p}assets/hero-hud.svg" width="800" height="710" alt=""><div class="hud-orbit"></div><div class="hud-scan"></div></div></div></div><div class="wrap hero-content">{label(d,'eyebrow')}<h1>{E(d['hero'][0])}<br><span>{E(d['hero'][1])}</span></h1><p class="hero-intro">{E(d['intro'])}</p><div class="actions">{link(d['cta'],'mailto:xbarber@umh.es?subject='+quote(HEALTH['translations'][l]['subject']),'button')}{link(d['researchcta'],'#investigacion')}</div><p class="hero-role">{E(d['role'])}</p></div><div class="hero-bottom wrap"><span>{E(d['photocaption'])}</span><div class="hud-controls"><button class="hud-toggle" hidden data-pause="{E(d['hudlabels'][0])}" data-resume="{E(d['hudlabels'][1])}" data-enable="{E(d['hudlabels'][2])}"><span class="hud-toggle-icon" aria-hidden="true">Ⅱ</span> <span class="hud-toggle-label">{E(d['hudlabels'][0])}</span></button></div></div></section><div class="credentials"><div class="wrap">{''.join('<div><strong>'+E(a)+'</strong><span>'+E(b)+'</span></div>' for a,b in d['credentials'])}</div></div>'''
+
+
+def health(l):
+ d=DATA[l];t=HEALTH['translations'][l]
+ s=f'<section class="section health" id="salud"><div class="wrap"><p class="eyebrow">{E(t["eyebrow"])}</p><div class="section-head"><h2>{E(t["title"])}</h2><p>{E(t["intro"])}</p></div><div class="health-capabilities">'
+ for title,body in t['capabilities']:s+=f'<article><h3>{E(title)}</h3><p>{E(body)}</p></article>'
+ s+=f'</div><div class="health-papers-heading"><h3>{E(t["paperslabel"])}</h3><p>{E(t["papersintro"])}</p></div><div class="papers health-papers">'
+ for i,p in enumerate(HEALTH['papers']):
+  s+=f'<article class="paper"><div class="paper-meta"><span>{E(p["year"])}</span><span>{E(t["types"][i])}</span></div><h3>{E(t["titles"][i])}</h3><p>{E(t["descs"][i])}</p><details class="citation"><summary>{E(d["citationlabel"])}</summary><div><p class="original-title"><a href="{E(p["url"],quote=True)}">{E(p["title"])}</a></p><p class="journal">{E(p["journal"])} · {E(p["year"])}</p><p class="authors">{E(p["authors"])}</p></div></details>{link(d["readpaper"],p["url"])}</article>'
+ s+=f'</div><div class="health-more"><h3>{E(t["more"])}</h3><ul>'
+ for p,title in zip(HEALTH['extra'],t['extratitles']):s+=f'<li>{link(title,p["url"])}<small>{E(p["journal"])} · {E(p["year"])}</small></li>'
+ s+=f'</ul>{link(t["orcid"],"https://orcid.org/0000-0003-3079-5855")}</div><aside class="health-cta"><div><h3>{E(t["cta"])}</h3><p>{E(t["ctatext"])}</p></div>{link(t["cta"],"mailto:xbarber@umh.es?subject="+quote(t["subject"]),"button")}</aside></div></section>'
+ return s
 
 def profile(l,expanded=False):
  d=DATA[l];p=root(l)
@@ -39,11 +53,12 @@ def profile(l,expanded=False):
 
 def research(l):
  d=DATA[l]
- s=f'<section class="section alt" id="investigacion"><div class="wrap">{label(d,"researchlabel")}<div class="section-head"><h2>{E(d["researchtitle"])}</h2><p>{E(d["researchintro"])}</p></div><div class="filters" role="group" aria-label="{E(d["filterlabel"])}">'+''.join(f'<button class="filter" data-filter="{i}" aria-pressed="{str(i==0).lower()}">{E(t)}</button>' for i,t in enumerate(d['filters']))+'</div><div class="papers">'
+ s=f'<section class="section alt" id="investigacion"><div class="wrap">{label(d,"researchlabel")}<div class="section-head"><h2>{E(d["researchtitle"])}</h2><p>{E(d["researchintro"])}</p></div><div class="filters" role="group" aria-label="{E(d["filterlabel"])}">'+''.join(f'<button class="filter" data-filter="{i}" aria-pressed="{str(i==0).lower()}">{E(t)}</button>' for i,t in enumerate(d['filters']) if i!=1)+'</div><div class="papers">'
  for n,p in enumerate(PAPERS):
+  if p['category']==1:continue
   names=p['authors'].split(';');short=names[0].split(',')[0]+(' et al.' if len(names)>1 else '')
   s+=f'''<article class="paper" data-category="{p['category']}"><div class="paper-meta"><span>{p['year']}</span><span>{E(d['filters'][p['category']])}</span></div><h3>{E(d['papertitles'][n])}</h3><p>{E(d['paperdescs'][n])}</p><details class="citation"><summary>{E(d['citationlabel'])}</summary><div><p class="original-title"><a href="{p['url']}">{E(p['title'])}</a></p><p class="journal">{E(p['journal'])} · {p['year']}</p><p class="authors">{E(short)}</p></div></details>{link(d['readpaper'],p['url'])}</article>'''
- return s+f'</div><div class="research-bottom"><span class="filter-count" aria-live="polite" data-count-label="{E(d["results"])}">6 {E(d["results"])}</span>{link(d["allpapers"],"cva.html")}</div></div></section>'
+ return s+f'</div><div class="research-bottom"><span class="filter-count" aria-live="polite" data-count-label="{E(d["results"])}">3 {E(d["results"])}</span>{link(d["allpapers"],"cva.html")}</div></div></section>'
 
 def projects(l):
  d=DATA[l];s=f'<section class="section" id="proyectos"><div class="wrap">{label(d,"projectslabel")}<div class="section-head">{heading(d,"projectstitle")}<p>{E(d["projectsintro"])}</p></div><div class="projects">'
@@ -100,7 +115,7 @@ def bibliography(l):
 
 for l,d in DATA.items():
  out=R/path(l);out.mkdir(exist_ok=True)
- pages={'index':hero(l)+profile(l)+research(l)+projects(l)+human(l)+training(l)+personal(l)+download(l),'about':profile(l,True)+human(l)+personal(l)+download(l),'xbarber':projects(l)+human(l)+download(l),'training':training(l),'cva':bibliography(l)}
+ pages={'index':hero(l)+health(l)+profile(l)+research(l)+projects(l)+human(l)+training(l)+personal(l)+download(l),'about':profile(l,True)+human(l)+personal(l)+download(l),'xbarber':health(l)+projects(l)+human(l)+download(l),'training':training(l),'cva':bibliography(l)}
  for key,body in pages.items():
   if key not in ('index','cva'):
    titles={'about':d['abouttitle'],'xbarber':d['projectstitle'],'training':d['trainingtitle']}

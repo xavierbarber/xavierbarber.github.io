@@ -1,8 +1,9 @@
 {
   "lang": "en-GB",
   "label": "English",
-  "title": "Artificial intelligence, data science and people",
+  "title": "AI, biostatistics and health",
   "nav": [
+    "AI & Health",
     "Consultancy and knowledge transfer",
     "Research",
     "Projects",
@@ -14,13 +15,13 @@
   "menu": "Menu",
   "skip": "Skip to content",
   "language": "Choose language",
-  "eyebrow": "Xavier Barber · Data science with judgement",
+  "eyebrow": "Xavier Barber · AI, biostatistics and health",
   "hero": [
-    "Rigorous data.",
-    "Purposeful AI."
+    "AI and statistics.",
+    "Working for health."
   ],
-  "intro": "I connect research, artificial intelligence and domain knowledge to help businesses, public institutions and research teams make better decisions.",
-  "cta": "Let's discuss your project",
+  "intro": "I collaborate with doctors and healthcare teams to turn clinical questions into studies, models and useful evidence. I also work with businesses and public bodies on data science projects.",
+  "cta": "Let’s discuss your clinical study",
   "researchcta": "Explore my research",
   "role": "Full Professor at UMH · Deputy Director of i-MInD · Director of the UMH–FISABIO Joint Research Unit",
   "photoalt": "Portrait of Xavier Barber with a book and a Bayesian statistics blackboard",
@@ -39,7 +40,7 @@
       "Chair of the Representative Council · 2026–2027"
     ]
   ],
-  "aboutlabel": "01 / PROFILE",
+  "aboutlabel": "02 / PROFILE",
   "abouttitle": "A scientific foundation. Many ways to contribute.",
   "aboutlead": "A useful solution starts with understanding the question.",
   "aboutparagraphs": [
@@ -55,9 +56,9 @@
     "Member of the Executive Committee of the Spanish Society of Biostatistics.",
     "Deputy Vice-Rector for Research at UMH, 2011–2023. Editorial and peer-review activity, including statistical editing for Public Health Nutrition."
   ],
-  "researchlabel": "02 / SELECTED RESEARCH",
-  "researchtitle": "The method matters. So does the application.",
-  "researchintro": "Machine learning, uncertainty and models that connect disciplines. Selected work with links to the original publications.",
+  "researchlabel": "03 / SELECTED RESEARCH",
+  "researchtitle": "Methods that connect other fields.",
+  "researchintro": "My research also develops methods for environmental applications and efficiency analysis.",
   "allpapers": "Browse all selected publications",
   "filters": [
     "All",
@@ -76,7 +77,7 @@
     "A review of Bayesian networks for disease diagnosis and prognosis.",
     "Open-source R software for fitting Efficiency Analysis Trees."
   ],
-  "projectslabel": "03 / PROJECTS AND KNOWLEDGE TRANSFER",
+  "projectslabel": "04 / PROJECTS AND KNOWLEDGE TRANSFER",
   "projectstitle": "From data to decisions.",
   "projectsintro": "Experience with specific problems across different sectors. These examples illustrate areas of work, rather than an exhaustive list of collaborations.",
   "projectnames": [
@@ -96,7 +97,7 @@
     "QUALITY AND DEVELOPMENT"
   ],
   "projecttexts": [
-    "Development and validation of predictive models for repeat-offence risk assessment within the ALTEA project. Statistics and AI to support police risk assessment tools.",
+    "I am part of the UMH team on the ALTEA project, alongside Fernando Miró Llinares and Juan Aparicio Baeza, reviewing and improving the police risk-assessment instruments used in VioGén-2. The project is commissioned by the Spanish Ministry of the Interior and directed by the Secretariat of State for Security.",
     "Selected success stories include predicting musculoskeletal risk in surgeons and analysing acceptance of remote consultations. Examples from a wider track record in clinical studies, treatment evaluation and predictive tools.",
     "Thermal risk in aquaculture, species distributions and environmental data integration. Maps and models to inform management and adaptation.",
     "Compost Calculator, sludge characterisation, waste valorisation, irrigation and soil zoning. Analysis to evaluate processes and resource-use options.",
@@ -107,7 +108,7 @@
   "partner": "Shared science. Collaborative solutions.",
   "partnertext": "I collaborate with Juan Aparicio and other research teams on methodological development and knowledge transfer projects. Sector knowledge and collaboration across disciplines are part of every solution.",
   "partnerlink": "Explore Juan Aparicio's work",
-  "humanlabel": "04 / HUMAN-CENTRED AI",
+  "humanlabel": "05 / HUMAN-CENTRED AI",
   "humantitle": "Technology supports. People decide.",
   "humanintro": "Useful AI must pay attention both to model quality and to the people it affects.",
   "humantext": "My experience in risk assessment, health research and large-scale citizen surveys connects methods with social needs. I see AI as a tool to support informed decisions, with human oversight and attention to its limitations.",
@@ -131,7 +132,7 @@
   ],
   "ethicstitle": "Ethics and integrity in scientific practice",
   "ethicstext": "Biostatistical member of the UMH Animal Experimentation Ethics Committee and Research Ethics and Integrity Committee since September 2026.",
-  "traininglabel": "05 / TRAINING",
+  "traininglabel": "06 / TRAINING",
   "trainingtitle": "Understand AI. Put it to better use.",
   "trainingintro": "Specialised training to help teams understand tools, interpret results and apply them with judgement in their work.",
   "courses": [
@@ -154,7 +155,7 @@
   ],
   "teachingnote": "University teaching since 2005, specialised training and Teaching Talent recognition. Excellent evaluations in DOCENTIA-UMH.",
   "trainingcta": "Discuss training for your team",
-  "personallabel": "06 / BEYOND THE UNIVERSITY",
+  "personallabel": "07 / BEYOND THE UNIVERSITY",
   "personaltitle": "Beyond the classroom.",
   "personalintro": "I am from Dénia. Cycling and playing the dolçaina are two ways to switch off, enjoy myself and spend time with others.",
   "biketitle": "Another way to explore the road ahead.",
@@ -167,7 +168,7 @@
   "downloadtitle": "My experience, at a glance.",
   "downloadtext": "Applications, training and scientific leadership in a downloadable infographic.",
   "downloadcta": "Download PDF · Spanish · 1.2 MB",
-  "contactlabel": "07 / CONTACT",
+  "contactlabel": "08 / CONTACT",
   "contacttitle": "Your next challenge. Let's talk.",
   "contacttext": "Tell me what you need to decide, what data you have or what training your team needs. Let's start with a good question.",
   "contactoptions": [
